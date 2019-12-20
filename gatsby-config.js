@@ -48,13 +48,13 @@ module.exports = {
 
     // SOURCE FILE SYSTEM -
     // SOURCE JSON
-    `gatsby-transformer-json`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/json`,
-      },
-    },
+    // `gatsby-transformer-json`,
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/json`,
+    //   },
+    // },
     // SOURCE MARKDOWN
     {
       resolve: `gatsby-source-filesystem`,
