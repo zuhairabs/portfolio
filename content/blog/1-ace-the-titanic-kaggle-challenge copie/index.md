@@ -1,8 +1,8 @@
 ---
-title: Titanic
+title: How to score 0.8134 in Titanic Kaggle Challenge
 date: 2016-09-10 10:10:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
-tags: ['kaggle']
+tags: ['kaggle', 'classification', 'data science', 'titanic challenge', 'tutorial']
 ---
 
 
