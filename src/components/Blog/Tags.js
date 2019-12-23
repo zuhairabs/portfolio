@@ -41,7 +41,8 @@ const Tags = () => {
     <section style={{ overflow: 'auto' }}>
       {tags.allMarkdownRemark.group.map(tag => (
         <TagBreadcrumb key={tag.fieldValue} to={`/blog/tags/${slugify(tag.fieldValue)}/`}>
-          {tag.fieldValue}, {tag.totalCount}
+          {/* {tag.fieldValue}, {tag.totalCount} */}
+          {tag.fieldValue}
         </TagBreadcrumb>
       ))}
     </section>

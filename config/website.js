@@ -4,13 +4,13 @@ const meta = {
   siteDescription: 'Ahmed BESBES - Data Scientist in the making.',
   siteTitleAlt: 'Ahmed BESBES',
   siteShortName: 'Ahmed BESBES',
-  siteUrl: 'https://anuraghazra.github.io', // No trailing slash!
+  siteUrl: 'https://ahmedbesbes.com', // No trailing slash!
 }
 
 const social = {
   siteLogo: `src/static/logo.svg`,
   siteBanner: `${meta.siteUrl}/images/social-banner.png`,
-  twitter: '@anuraghazru',
+  twitter: '@ahmed_besbes_',
 }
 
 const website = {

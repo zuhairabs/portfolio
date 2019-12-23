@@ -18,12 +18,12 @@ const BlogPage = () => {
           edges {
             node {
               id
-              excerpt
               timeToRead
               frontmatter {
                 title
                 date(formatString: "MMMM DD, YYYY", locale: "en")
                 tags
+                excerpt
               }
               fields {
                 slug
@@ -36,7 +36,7 @@ const BlogPage = () => {
   )
   return (
     <Layout>
-      <SEO title="Blog | Anurag Hazra" />
+      <SEO title="Ahmed BESBES - Data Science Portfolio" />
 
       <BlogLayout>
         {
@@ -48,7 +48,7 @@ const BlogPage = () => {
               date={node.frontmatter.date}
               tags={node.frontmatter.tags}
               readtime={node.timeToRead}
-              excerpt={node.excerpt}
+              excerpt={node.frontmatter.excerpt}
             />
           ))
         }

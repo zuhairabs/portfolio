@@ -12,6 +12,8 @@ import { BlogDateAndReadTime } from "src/components/Blog/BlogCard";
 import { DiscussionEmbed } from "disqus-react";
 
 import { siteUrl, disqusShortName } from '../../config/website';
+require(`katex/dist/katex.min.css`);
+
 
 const BlogPost = ({ data, pageContext }) => {
   const { title, date } = data.markdownRemark.frontmatter;

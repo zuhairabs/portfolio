@@ -24,7 +24,7 @@ const TagsPage = ({ data, pageContext }) => {
         {
           edges.map(({ node }) => {
             const { slug } = node.fields;
-            const { title, date, tags } = node.frontmatter;
+            const { title, date, tags, excerpt } = node.frontmatter;
             return (
               <BlogCard
                 tags={tags}
@@ -33,7 +33,7 @@ const TagsPage = ({ data, pageContext }) => {
                 title={title}
                 date={date}
                 readtime={node.timeToRead}
-                excerpt={node.excerpt}
+                excerpt={excerpt}
               />
             )
           })
@@ -55,7 +55,6 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          excerpt
           timeToRead
           fields {
             slug
@@ -64,6 +63,7 @@ export const pageQuery = graphql`
             tags
             title
             date(formatString: "MMMM DD, YYYY", locale: "en")
+            excerpt
           }
         }
       }
