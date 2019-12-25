@@ -65,7 +65,7 @@ Inside this virtual environment, we'll need to install these libraries:
 Demo:
 
 <div align="center">
-    <img src="./images/tqdm.gif">
+    <img src="./images/tqdm.gif" width="100%">
 </div>
 
 Cool, hein?

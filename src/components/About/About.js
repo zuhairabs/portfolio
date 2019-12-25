@@ -20,19 +20,16 @@ const About = () => {
           <Avatar src="ahmed.jpg" />
         </div>
         <p>
-          Hello there! I'm Ahmed. I hope you stumbled upon this blog on purpose! Otherwise, let me introduce you to my world ! 
+          Hello there! I'm Ahmed. I hope you stumbled upon this website on purpose! Otherwise, let me introduce you to my world! 
           <br />
+          I'm a data scientist living in France 🇫🇷. I've been working accross many industries such financial services, media and public sector.
           <br />
-          I'm a data scientist who builds and deploys AI products.
+          Part of my work include crafting, building and deploying AI applications to answer business issues.
+          
+          I also blog about technical topics such as deep learning. You can check <a className="about__rkmscc-link" href="blog"> my blog</a> or 
+          my <a className="about__rkmscc-link" href="https://github.com/ahmedbesbes">github</a> for more details.
           <br />
-          <br />
-          I live in France 🇫🇷, I've been working accross many industries (financial services, media, public sector) and I'm also a blogger and a Youtuber enthusiast.
-          <br />
-          <br />
-          I do open source work that you can check out on <a className="about__rkmscc-link" href="https://github.com/ahmedbesbes">github</a> .
-          <br />
-          <br />
-          Do not hesitate to contact me for any request.
+          You're having an idea or a business inquiry, do not hesitate to drop a message below ⬇️
 
 
         </p>

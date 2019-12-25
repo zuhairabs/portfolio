@@ -1,6 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faYoutube, faQuora, faLinkedinIn, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube, faQuora, faLinkedinIn, faStackOverflow} from '@fortawesome/free-brands-svg-icons'
+import { faRobot, faRocket } from '@fortawesome/free-solid-svg-icons'
+
 
 import svgRect from 'src/static/home_rect.svg'
 
@@ -17,26 +19,26 @@ import { Card, CardIcon, CardText, CardTitle } from "src/components/common/Card"
 const ThingsILove = () => (
   <Flex justify="space-between" align="center">
     <Card>
+      <CardIcon><FontAwesomeIcon icon={faRobot} /></CardIcon>
+      <CardTitle>Machine Learning</CardTitle>
+      <CardText>
+        I train robust models for various tasks in NLP, computer vision and more
+      </CardText>
+    </Card>
+
+    <Card>
       <CardIcon><FontAwesomeIcon icon="code" /></CardIcon>
-      <CardTitle>FrontEnd</CardTitle>
+      <CardTitle>Software Engineering</CardTitle>
       <CardText>
-        I'm more front end focused and love to work with Reactjs as well as pure HTML, CSS.
+        I build apps to encapsulate ML models and provide a better user experience
       </CardText>
     </Card>
 
     <Card>
-      <CardIcon><FontAwesomeIcon icon={["fab", "js"]} /></CardIcon>
-      <CardTitle>Javascript</CardTitle>
+      <CardIcon><FontAwesomeIcon icon={faRocket}/></CardIcon>
+      <CardTitle>Deployment</CardTitle>
       <CardText>
-        I just extremely love javascript, I can’t even express how much I love javascript with just a few lines.
-      </CardText>
-    </Card>
-
-    <Card>
-      <CardIcon><FontAwesomeIcon icon="paint-brush" /></CardIcon>
-      <CardTitle>Creative Coding</CardTitle>
-      <CardText>
-        I love creative coding because I do both coding & designing. making beautiful art with code is very satisfying to me.
+        I push apps to production. Docker is my one of my friends
       </CardText>
     </Card>
   </Flex>
