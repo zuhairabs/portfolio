@@ -8,6 +8,7 @@ slug: interactive-topic-mining
 folder: /blog/2-analyze-news-data
 ---
 
+    
 The web is full of data. You will find it in different shapes and formats; simple tabular sheets, excel files, large and unstructered NoSql databases. 
 
 The variety of content is overwhelming: texts, logs, tweets, images, comments, likes, views, videos, news headlines. All of this is constantly produced by batch or on a real time fashion, all over the world, generating <a href="http://www.vcloudnews.com/every-day-big-data-statistics-2-5-quintillion-bytes-of-data-created-daily/"> quintillions of bytes</a> everyday. 
