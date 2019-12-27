@@ -56,7 +56,6 @@ module.exports = {
             }
           },
           `gatsby-plugin-social-banners`,
-          `gatsby-plugin-meta-redirect`
         ]
       }
     },

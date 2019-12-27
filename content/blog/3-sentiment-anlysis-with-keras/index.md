@@ -2,7 +2,7 @@
 title: Sentiment analysis on Twitter using word2vec and keras
 date: 2017-04-20 10:10:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
-tags: ['nlp', 'word2vec', 'doc2vec', 'deep learning', 'keras', 'neural networks', 'twitter']
+tags: ['nlp', 'word2vec', 'doc2vec', 'deep learning', 'keras', 'neural networks', 'twitter', 'sentiment analysis']
 excerpt: Learn how to perform sentiment analysis on tweets using the word2vec embedding model and neural networks via Keras
 slug: sentiment-analysis-with-keras-and-word2vec
 folder: /blog/3-sentiment-anlysis-with-keras
