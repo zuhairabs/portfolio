@@ -1,5 +1,5 @@
 ---
-title: Introduction to Neural Networks and Deep Learning from scratch
+title: Introduction to Neural Networks and Deep Learning from scratch 💡
 date: 2019-08-31 12:00:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ['neural networks', 'deep learning', 'workshop', 'slides', 'presentation']
@@ -18,4 +18,4 @@ You can view the slides here:
 
 Here's an animated slideshow of the back-propagation:
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/lsiAMB2DWP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/lsiAMB2DWP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

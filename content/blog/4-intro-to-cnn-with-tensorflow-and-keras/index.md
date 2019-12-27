@@ -1,5 +1,5 @@
 ---
-title: Understanding deep Convolutional Neural Networks with a practical use-case in Tensorflow and Keras
+title: Understanding deep Convolutional Neural Networks 👁 with a practical use-case in Tensorflow and Keras
 date: 2017-11-13 10:10:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ["deep learning", "convolutional neural networks", "image classification", "keras", "tensorflow", "aws", "gpu", "computer vision"]

@@ -1,5 +1,5 @@
 ---
-title: "Automate the diagnosis of Knee Injuries with Deep Learning part 3: Interpret models' predictions"
+title: "Automate the diagnosis of Knee Injuries 🏥 with Deep Learning part 3: Interpret models' predictions"
 date: 2019-08-21 12:00:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ['mri', 'medical imaging', mrnet', 'convolutional neural networks', 'pytorch', 'interpretability', 'class cctivation map', 'cam']
@@ -7,7 +7,6 @@ excerpt:  In this post, we will focus on interpretability to assess what the ACL
 slug: acl-tear-detection-part-3
 folder: /blog/8-acl-tear-detection-part-3
 ---
-
 
 *This post is the third and last one of a series I dedicated to medical imaging and deep learning. If you're interested in this topic you can read my <a href="https://ahmedbesbes.com/automate-the-diagnosis-of-knee-injuries-with-deep-learning-part-1-an-overview-of-the-mrnet-dataset.html">first article</a> where I explore the MRNet knee MRI dataset released by Stanford and my <a href="https://ahmedbesbes.com/automate-the-diagnosis-of-knee-injuries-with-deep-learning-part-1-an-overview-of-the-mrnet-dataset.html">second article</a> where I train a convolutional neural network to classify the related knee injuries. The model is implemented in PyTorch and the source code is now available on my github <a href="https://github.com/ahmedbesbes/mrnet">repo</a>.*
 
@@ -62,7 +61,7 @@ Although ConvNets have became very efficient lately by outperforming the human e
 
 If you're interested in the theory behind these networks, you can dive into pure mathematical considerations and watch Stéphane Mallat's excellent presentation in which he approaches and explains ConvNets in a mathematical formalism by introducing his famous theory of wavelets.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/4eyUReyIPXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/4eyUReyIPXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The other way to build an intuition on why ConvNets work is by visualizing the salient areas these networks focus on before making a prediction when confronted with an image. 
 
@@ -450,4 +449,4 @@ If you're interested in running the application, the code is available on github
 
 Here's a quick video demo of the dash application: <br><br>
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/SbNGj51kW28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/SbNGj51kW28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

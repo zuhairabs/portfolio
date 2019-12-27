@@ -1,5 +1,5 @@
 ---
-title: Introduction to AutoML with MLBox
+title: Introduction to AutoML with MLBox 🤖
 date: 2019-10-08 12:00:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES, Axel de ROMBLAY 
 tags: ['mlbox', 'automl']

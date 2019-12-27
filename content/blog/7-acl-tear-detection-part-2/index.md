@@ -1,5 +1,5 @@
 ---
-title: "Automate the diagnosis of Knee Injuries with Deep Learning part 2: Building an ACL tear classifier"
+title: "Automate the diagnosis of Knee Injuries 🏥 with Deep Learning part 2: Building an ACL tear classifier"
 date: 2019-07-14 12:00:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ['computer vision', 'mri', 'medical imaging', 'computer vision', 'mrnet', 'convolutional neural networks', 'pytorch', 'image classification']

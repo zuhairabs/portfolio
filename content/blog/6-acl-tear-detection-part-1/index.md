@@ -1,5 +1,5 @@
 ---
-title: "Automate the diagnosis of Knee Injuries with Deep Learning part 1: an overview of the MRNet Dataset"
+title: "Automate the diagnosis of Knee Injuries 🏥 with Deep Learning part 1: an overview of the MRNet Dataset"
 date: 2019-06-25 12:00:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ['computer vision', 'mri', 'medical imaging', 'computer vision', 'mrnet', 'convolutional neural networks', 'pytorch', 'image classification', 'jupyter widgets']
@@ -40,7 +40,7 @@ In this series of upcoming posts I will show you how I implemented this paper.
 <span style="color:red"><b>Spoiler alert, here's what it will look like</b></span>
 
 <p align='center'>
-    <img src="./images/mri.gif">
+    <img src="./images/mri.gif" width="100%">
 </p>
 
 Let's start ! 😁
@@ -69,7 +69,7 @@ MRI is used to diagnose how well you responded to a treatment as well as detecti
 
 Here is an animation of a head MRI:
 
-<p align="center">
+<p align="center" width="100%">
     <img src="./images/brain.gif">
 </p>
 
@@ -362,7 +362,7 @@ class KneePlot():
 ```
 
 <p align="center">
-    <img src="./images/mri.gif">
+    <img src="./images/mri.gif" width="100%">
 </p>
 
 ## Few consideration about the data:

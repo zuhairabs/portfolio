@@ -8,11 +8,11 @@ import BlogCard from 'src/components/Blog/BlogCard';
 import BlogLayout from 'src/components/Blog/BlogLayout';
 
 const BlogPage = () => {
-  const blogposts = useStaticQuery(
+   const blogposts = useStaticQuery(
     graphql`
-      query {
+      query blogPageQuery {
         allMarkdownRemark(
-          filter: {fields: {posttype: {eq: "blog"}}},
+          filter: {fields: {posttype: {eq: "blog"}}}
           sort: {fields: frontmatter___date, order: DESC}
         ){
           edges {

@@ -26,8 +26,6 @@ const BlogPost = ({ data, pageContext }) => {
     url: baseSlugUrl
   }
 
-  // const githubLink = `https://github.com/ahmedbesbes/gatsby-blog/blob/master/content${pageContext.slug}/index.md`;
-
   const githubLink = `https://github.com/ahmedbesbes/gatsby-blog/blob/master/content${folder}/index.md`;
 
   return (

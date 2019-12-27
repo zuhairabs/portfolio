@@ -1,5 +1,5 @@
 ---
-title: Overview and benchmark of traditional and deep learning models in text classification
+title: Overview and benchmark of traditional and deep learning models in text classification 📝
 date: 2018-06-12 10:10:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ['nlp', 'sentiment analysis', 'cnn', 'rnn', 'gru', 'transfer learning', 'deep learning', 'keras', 'neural networks', 'twitter', 'glove', 'bag of words', 'word ngrams', 'character ngrams']

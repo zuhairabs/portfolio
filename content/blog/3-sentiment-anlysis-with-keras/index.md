@@ -1,5 +1,5 @@
 ---
-title: Sentiment analysis on Twitter using word2vec and keras
+title: Sentiment analysis 👍 👎 on Twitter using Word2vec and Keras
 date: 2017-04-20 10:10:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ['nlp', 'word2vec', 'doc2vec', 'deep learning', 'keras', 'neural networks', 'twitter', 'sentiment analysis']

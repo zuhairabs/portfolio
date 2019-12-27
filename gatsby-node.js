@@ -89,7 +89,7 @@ exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
   const caseStudyTemplate = path.resolve('src/templates/case-study.js');
   const blogPostTemplate = path.resolve('src/templates/blog-post.js');
-  const tagTemplate = path.resolve("src/templates/tags.js")
+  const tagTemplate = path.resolve("src/templates/tags.js");
 
   return graphql(`
     {
@@ -111,7 +111,6 @@ exports.createPages = ({ actions, graphql }) => {
     if (res.errors) return Promise.reject(res.errors);
 
     const edges = res.data.allMarkdownRemark.edges;
-
     edges.forEach(({ node }) => {
       // if the posttype is case-studies then createPage with caseStudyTemplate
       // we get fileds.posttype because we created this node with onCreateNode
@@ -127,7 +126,6 @@ exports.createPages = ({ actions, graphql }) => {
         const tagSet = new Set();
         // for each tags on the frontmatter add them to the set
         node.frontmatter.tags.forEach(tag => tagSet.add(tag));
-
         const tagList = Array.from(tagSet);
         // for each tags create a page with the specific `tag slug` (/blog/tags/:name)
         // pass the tag through the PageContext

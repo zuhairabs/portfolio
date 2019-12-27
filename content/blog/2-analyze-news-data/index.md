@@ -1,5 +1,5 @@
 ---
-title: How to mine newsfeed data and extract interactive insights in Python
+title: How to mine newsfeed data 📰 and extract interactive insights in Python
 date: 2017-03-15 10:10:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ['nlp', 'topic mining', 'tf-idf', 'lda', 'newsapi.org', 'text clustering', 'bokeh', 'kmeans']

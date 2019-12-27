@@ -55,7 +55,7 @@ module.exports = {
               showCaptions: true
             }
           },
-          `gatsby-plugin-social-banners`,
+          `gatsby-plugin-social-banners`
         ]
       }
     },
