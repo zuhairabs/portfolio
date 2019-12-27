@@ -4,8 +4,9 @@ date: 2017-03-15 10:10:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ['nlp', 'topic mining', 'tf-idf', 'lda', 'newsapi.org', 'text clustering', 'bokeh', 'kmeans']
 excerpt: Learn how to cluster and visualize news data using KMeans, LDA and interactive plotting with Bokeh
+slug: interactive-topic-mining
+folder: /blog/2-analyze-news-data
 ---
-
 
 The web is full of data. You will find it in different shapes and formats; simple tabular sheets, excel files, large and unstructered NoSql databases. 
 
@@ -21,7 +22,7 @@ If you think how you could do to extract value from this large amount of data, y
 
 In this tutorial, I'll show you how you can easily collect news feeds from 60 different data sources (Google News, The BBC, Business Insider, BuzzFeed, etc) and apply machine learning algorithms on them to automatically extract the hidden topics.
 
-![](images/news_sources.PNG)
+![](images/news_sources.png)
 
 Topic mining is very helpful. It is integrated in many recommendation systems. It is present in social media monitoring tools, marketing intelligence softwares, etc.
 
@@ -1643,7 +1644,7 @@ We assumed that a document's topic is the one that has the highest probability. 
 
 Hopefully pyLDAvis is a visualization package that'll help us solve this problem!
 
-![](images/pyldavis.PNG)
+![](images/pyldavis.png)
 
 
 ```python

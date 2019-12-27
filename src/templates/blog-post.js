@@ -16,7 +16,7 @@ require(`katex/dist/katex.min.css`);
 
 
 const BlogPost = ({ data, pageContext }) => {
-  const { title, date } = data.markdownRemark.frontmatter;
+  const { title, date, folder } = data.markdownRemark.frontmatter;
   const { timeToRead, html, excerpt, id } = data.markdownRemark;
 
   const baseSlugUrl = siteUrl + pageContext.slug;
@@ -26,7 +26,9 @@ const BlogPost = ({ data, pageContext }) => {
     url: baseSlugUrl
   }
 
-  const githubLink = `https://github.com/anuraghazra/anuraghazra.github.io/tree/develop/content${pageContext.slug}/index.md`;
+  // const githubLink = `https://github.com/ahmedbesbes/gatsby-blog/blob/master/content${pageContext.slug}/index.md`;
+
+  const githubLink = `https://github.com/ahmedbesbes/gatsby-blog/blob/master/content${folder}/index.md`;
 
   return (
     <Layout>
@@ -66,6 +68,7 @@ export const query = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY", locale: "en")
         title
+        folder
       }
     }
   }

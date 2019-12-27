@@ -11,6 +11,7 @@ import useRandomBlogPost from "src/hooks/useRandomBlogPost";
 const BlogLayout = ({ children, sharerSection }) => {
   const { randomSlug, randomTitle } = useRandomBlogPost();
 
+  
   return (
     <SplitLayout
       content={children}

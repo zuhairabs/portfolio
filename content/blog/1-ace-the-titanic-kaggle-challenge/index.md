@@ -4,8 +4,8 @@ date: 2016-09-10 10:10:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 excerpt: Learn how to tackle a kaggle competition from the beginning till the end through data exploration, feature engineering, model building and fine-tuning
 tags: ['kaggle', 'classification', 'data science', 'titanic challenge', 'tutorial']
-redirects: 
-  - /titanic.html
+slug: kaggle-titanic-competition
+folder: /blog/1-ace-the-titanic-kaggle-challenge
 ---
 
 

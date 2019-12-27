@@ -1,48 +1,87 @@
 const axios = require('axios');
 const { createRemoteFileNode } = require(`gatsby-source-filesystem`);
+const { createFilePath } = require(`gatsby-source-filesystem`);
 const path = require('path');
 
 const slugify = require('./src/components/slugify.js');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
+  // const { createNodeField } = actions;
+
+  // if (node.internal.type !== 'MarkdownRemark') return;
+
+  // const fileNode = getNode(node.parent);
+  // const slugFromTitle = slugify(node.frontmatter.title);
+
+  // // sourceInstanceName defined if its a blog or case-studie
+  // const sourceInstanceName = fileNode.sourceInstanceName;
+
+  // // extract the name of the file because we need to sort by it's name
+  // // `001-blahblah`
+  // const fileIndex = fileNode.name.substr(2, 1);
+
+  // // create slug nodes
+  // createNodeField({
+  //   node,
+  //   name: 'slug',
+  //   // value will be {blog||case-studies}/my-title
+  //   value: '/' + sourceInstanceName + '/' + slugFromTitle
+  // });
+
+  // // adds a posttype field to extinguish between blog and case-study
+  // createNodeField({
+  //   node,
+  //   name: 'posttype',
+  //   // value will be {blog||case-studies}
+  //   value: sourceInstanceName
+  // });
+
+  // // if sourceInstanceName is case-studies then add the fileIndex field because we need
+  // // this to sort the Projects with their respective file name `001-blahblah`
+  // if (sourceInstanceName == 'case-studies') {
+  //   createNodeField({
+  //     node,
+  //     name: 'fileIndex',
+  //     value: fileIndex
+  //   })
+  // }
+
   const { createNodeField } = actions;
 
-  if (node.internal.type !== 'MarkdownRemark') return;
-
-  const fileNode = getNode(node.parent);
-  const slugFromTitle = slugify(node.frontmatter.title);
-
-  // sourceInstanceName defined if its a blog or case-studie
-  const sourceInstanceName = fileNode.sourceInstanceName;
-
-  // extract the name of the file because we need to sort by it's name
-  // `001-blahblah`
-  const fileIndex = fileNode.name.substr(2, 1);
-
-  // create slug nodes
-  createNodeField({
-    node,
-    name: 'slug',
-    // value will be {blog||case-studies}/my-title
-    value: '/' + sourceInstanceName + '/' + slugFromTitle
-  });
-
-  // adds a posttype field to extinguish between blog and case-study
-  createNodeField({
-    node,
-    name: 'posttype',
-    // value will be {blog||case-studies}
-    value: sourceInstanceName
-  });
-
-  // if sourceInstanceName is case-studies then add the fileIndex field because we need
-  // this to sort the Projects with their respective file name `001-blahblah`
-  if (sourceInstanceName == 'case-studies') {
+  if (node.internal.type === 'MarkdownRemark') {
+    const fileNode = getNode(node.parent);
+    const sourceInstanceName = fileNode.sourceInstanceName;
+    const fileIndex = fileNode.name.substr(2, 1);
+    if (typeof node.frontmatter.slug !== 'undefined') {
+      const slugFromSlug = slugify(node.frontmatter.slug)
+      createNodeField({
+          node,
+          name: 'slug',
+          // value will be {blog||case-studies}/my-title
+          value: '/' + sourceInstanceName + '/' + slugFromSlug
+      });
+    } else {
+      const slugFromTitle = slugify(node.frontmatter.title)
+      createNodeField({
+          node,
+          name: 'slug',
+          // value will be {blog||case-studies}/my-title
+          value: '/' + sourceInstanceName + '/' + slugFromTitle
+      });
+    }
     createNodeField({
-      node,
-      name: 'fileIndex',
-      value: fileIndex
-    })
+        node,
+        name: 'posttype',
+        // value will be {blog||case-studies}
+        value: sourceInstanceName
+      });
+    if (sourceInstanceName == 'case-studies') {
+        createNodeField({
+          node,
+          name: 'fileIndex',
+          value: fileIndex
+        })
+      }   
   }
 }
 
