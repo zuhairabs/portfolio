@@ -38,7 +38,7 @@ const ThingsILove = () => (
       <CardIcon><FontAwesomeIcon icon={faRocket}/></CardIcon>
       <CardTitle>Deployment</CardTitle>
       <CardText>
-        I push apps to production. Docker is my one of my friends
+        I push apps to production. Docker is one of my friends
       </CardText>
     </Card>
   </Flex>

@@ -22,7 +22,7 @@ module.exports = async ({ markdownNode }) => {
       alignmentY: jimp.VERTICAL_ALIGN_MIDDLE
     }, 921, 179)
     .print(karla, 0, 434, {
-      text: `${dateformat(frontmatter.date, 'mmmm d, yyyy')}  |  Anurag Hazra`,
+      text: `${dateformat(frontmatter.date, 'mmmm d, yyyy')}  | Ahmed BESBES`,
       alignmentX: jimp.HORIZONTAL_ALIGN_CENTER,
       alignmentY: jimp.VERTICAL_ALIGN_MIDDLE
     }, 1200, 44)

@@ -55,7 +55,20 @@ module.exports = {
               showCaptions: true
             }
           },
-          `gatsby-plugin-social-banners`
+          `gatsby-plugin-social-banners`,
+          `gatsby-plugin-twitter`,
+          {
+            resolve: `gatsby-plugin-nprogress`,
+            options: {
+              // Setting a color is optional.
+              color: `tomato`,
+              // Disable the loading spinner.
+              showSpinner: true,
+            },
+          },
+          `gatsby-plugin-sitemap`,
+          `gatsby-plugin-robots-txt`,
+          `gatsby-plugin-netlify`
         ]
       }
     },

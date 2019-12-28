@@ -1,1 +1,13 @@
-/titanic.html /blog/how-to-score-0-8134-in-titanic-kaggle-challenge
+## Created with gatsby-plugin-netlify
+
+/how-to-score-08134-in-titanic-kaggle-challenge.html  /blog/kaggle-titanic-competition  301
+/how-to-mine-newsfeed-data-and-extract-interactive-insights-in-python.html  /blog/interactive-topic-mining  301
+/sentiment-analysis-on-twitter-using-word2vec-and-keras.html  /blog/sentiment-analysis-with-keras-and-word2-vec  301
+/understanding-deep-convolutional-neural-networks-with-a-practical-use-case-in-tensorflow-and-keras.html  /blog/introduction-to-cnns  301
+/overview-and-benchmark-of-traditional-and-deep-learning-models-in-text-classification.html  /blog/benchmarking-sentiment-analysis-models  301
+/automate-the-diagnosis-of-knee-injuries-with-deep-learning-part-1-an-overview-of-the-mrnet-dataset.html  /blog/acl-tear-detection-part-1  301
+/automate-the-diagnosis-of-knee-injuries-with-deep-learning-part-2-building-an-acl-tear-classifier.html  /blog/acl-tear-detection-part-2  301
+/automate-the-diagnosis-of-knee-injuries-with-deep-learning-part-3-interpret-models-predictions.html  /blog/acl-tear-detection-part-3  301
+/introduction-to-neural-networks-and-deep-learning-from-scratch.html  /blog/neural-networks-from-scratch  301
+/introduction-to-automl-with-mlbox.html  /blog/introduction-to-mlbox  301
+/end-to-end-ml.html  /blog/end-to-end-machine-learning  301

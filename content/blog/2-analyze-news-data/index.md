@@ -37,6 +37,11 @@ This post is structured as follow:
 - **Modeling:** Once the data is collected and stored, I'll ingest it in a pandas dataframe. I'll first preprocess it using text preprocessing tokenization and the tfidf algorithm and then I'll cluster it using 2 different algorithms: K-means and Latent Dirichlet Allocation (LDA). Details below.
 
 - **Visualization:** Finally I'll visualize the news clusters using two interactive python visualization libraries. They're called **Bokeh** and **pyldavis**. They're awesome and you'll see why.
+
+Before starting, a word of gratitude to <a href>@Kdnuggets</a> who kindly shared my post on their Twitter feed.
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">How to mine <a href="https://twitter.com/hashtag/newsfeed?src=hash&amp;ref_src=twsrc%5Etfw">#newsfeed</a> data, extract interactive insights in <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> <a href="https://twitter.com/hashtag/DataScience?src=hash&amp;ref_src=twsrc%5Etfw">#DataScience</a> <a href="https://twitter.com/hashtag/MachineLearning?src=hash&amp;ref_src=twsrc%5Etfw">#MachineLearning</a> <a href="https://twitter.com/ahmed_besbes_?ref_src=twsrc%5Etfw">@ahmed_besbes_</a> <a href="https://t.co/ZKzIEQ1r0O">https://t.co/ZKzIEQ1r0O</a> <a href="https://t.co/O9Vn8TkTtR">pic.twitter.com/O9Vn8TkTtR</a></p>&mdash; KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/843869131350917120?ref_src=twsrc%5Etfw">March 20, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
  
 Let's get started !
 

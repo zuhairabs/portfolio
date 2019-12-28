@@ -2215,3 +2215,4 @@ I would be more than happy if you could find out a way to improve my solution. T
 
 As a word of gratitude, I would like to thank Kdnuggets for sharing this post !
 
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">How to score 0.8134 in <a href="https://twitter.com/hashtag/Titanic?src=hash&amp;ref_src=twsrc%5Etfw">#Titanic</a> <a href="https://twitter.com/kaggle?ref_src=twsrc%5Etfw">@Kaggle</a> Challenge <a href="https://t.co/YQwJN4JjUT">https://t.co/YQwJN4JjUT</a> <a href="https://twitter.com/hashtag/MachineLearning?src=hash&amp;ref_src=twsrc%5Etfw">#MachineLearning</a> <a href="https://t.co/QQrXO5p0p3">pic.twitter.com/QQrXO5p0p3</a></p>&mdash; KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/765636511492612096?ref_src=twsrc%5Etfw">August 16, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

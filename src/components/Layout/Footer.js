@@ -22,7 +22,7 @@ const Footer = () => (
 
       <img width="35px" src={logo} alt="anurag hazra" />
 
-      <p style={{ float: 'right' }}>Made With Love And Gatsby, By Me</p>
+      <p style={{ float: 'right' }}>Made With Love And Gatsby - Design by Anurag Hazra</p>
     </Wrapper>
   </FooterWrapper>
 )

@@ -26,6 +26,11 @@ So I decided to implement it for these various reasons:
 - It's fast to train
 - It doesn't require storing a large word embedding matrix. Hence, it's lightweight and you can deploy it in production easily
 
+When I shared my implementation on Twitter, it quickly went viral: 
+
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">My <a href="https://twitter.com/PyTorch?ref_src=twsrc%5Etfw">@PyTorch</a> implementation of Character Based ConvNets for text classification published by <a href="https://twitter.com/ylecun?ref_src=twsrc%5Etfw">@ylecun</a> in 2015 is now open-source on <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">@github</a> . Many training features and hacks are implemented. Feel free to check and contribute! <a href="https://t.co/XBtaFQIUhy">https://t.co/XBtaFQIUhy</a><a href="https://twitter.com/hashtag/DeepLearning?src=hash&amp;ref_src=twsrc%5Etfw">#DeepLearning</a> <a href="https://twitter.com/hashtag/NLP?src=hash&amp;ref_src=twsrc%5Etfw">#NLP</a> <a href="https://t.co/GM8NzZ7GOg">pic.twitter.com/GM8NzZ7GOg</a></p>&mdash; Ahmed Besbes (@ahmed_besbes_) <a href="https://twitter.com/ahmed_besbes_/status/1090903275010998272?ref_src=twsrc%5Etfw">January 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Dependencies
 
 - numpy
@@ -63,7 +68,8 @@ Launch train.py with the following `arguments`:
 - `steps`: text preprocessing steps to include on the text like hashtag or url removal
 - `group_labels`: whether or not to group labels. Default to None.
 - `use_sampler`: whether or not to use a weighted sampler to overcome class imbalance
-- `alphabet`: default to "abcdefghijklmnopqrstuvwxyz0123456789,;.!?:'\"/\\|_@#$%^&*~\`+-=<>()[]{}" (normally you should not modify it)
+- `alphabet`: default to "abcdefghijklmnopqrstuvwxyz
+0123456789,;.!?:'\"/\\|_@#$%^&*~\`+-=<>()[]{}" (normally you should not modify it)
 - `number_of_characters`: default 70
 - `extra_characters`: additional characters that you'd add to the alphabet. For example uppercase letters or accented characters
 - `max_length`: the maximum length to fix for all the documents. default to 150 but should be adapted to your data
@@ -97,7 +103,8 @@ Launch predict.py with the following arguments:
 - `model`: path of the pre-trained model
 - `text`: input text
 - `steps`: list of preprocessing steps, default to lower
-- `alphabet`: default to 'abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:\'"\\/|_@#$%^&*~`+-=<>()[]{}\n'
+- `alphabet`: default to "abcdefghijklmnopqrstuvwxyz
+0123456789-,;.!?:\'"\\/|_@#$%^&*~`+-=<>()[]{}\n"
 - `number_of_characters`: default to 70
 - `extra_characters`: additional characters that you'd add to the alphabet. For example uppercase letters or accented characters
 - `max_length`: the maximum length to fix for all the documents. default to 150 but should be adapted to your data

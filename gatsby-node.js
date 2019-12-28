@@ -86,7 +86,20 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 }
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions;
+  const { createPage, createRedirect} = actions;
+
+  createRedirect({ fromPath: '/how-to-score-08134-in-titanic-kaggle-challenge.html', toPath: '/blog/kaggle-titanic-competition', isPermanent: true })
+  createRedirect({ fromPath: '/how-to-mine-newsfeed-data-and-extract-interactive-insights-in-python.html', toPath: '/blog/interactive-topic-mining', isPermanent: true })
+  createRedirect({ fromPath: '/sentiment-analysis-on-twitter-using-word2vec-and-keras.html', toPath: '/blog/sentiment-analysis-with-keras-and-word2-vec', isPermanent: true })
+  createRedirect({ fromPath: '/understanding-deep-convolutional-neural-networks-with-a-practical-use-case-in-tensorflow-and-keras.html', toPath: '/blog/introduction-to-cnns', isPermanent: true })
+  createRedirect({ fromPath: '/overview-and-benchmark-of-traditional-and-deep-learning-models-in-text-classification.html', toPath: '/blog/benchmarking-sentiment-analysis-models', isPermanent: true })
+  createRedirect({ fromPath: '/automate-the-diagnosis-of-knee-injuries-with-deep-learning-part-1-an-overview-of-the-mrnet-dataset.html', toPath: '/blog/acl-tear-detection-part-1', isPermanent: true })
+  createRedirect({ fromPath: '/automate-the-diagnosis-of-knee-injuries-with-deep-learning-part-2-building-an-acl-tear-classifier.html', toPath: '/blog/acl-tear-detection-part-2', isPermanent: true })
+  createRedirect({ fromPath: '/automate-the-diagnosis-of-knee-injuries-with-deep-learning-part-3-interpret-models-predictions.html', toPath: '/blog/acl-tear-detection-part-3', isPermanent: true })
+  createRedirect({ fromPath: '/introduction-to-neural-networks-and-deep-learning-from-scratch.html', toPath: '/blog/neural-networks-from-scratch', isPermanent: true })
+  createRedirect({ fromPath: '/introduction-to-automl-with-mlbox.html', toPath: '/blog/introduction-to-mlbox', isPermanent: true })
+  createRedirect({ fromPath: '/end-to-end-ml.html', toPath: '/blog/end-to-end-machine-learning', isPermanent: true })
+
   const caseStudyTemplate = path.resolve('src/templates/case-study.js');
   const blogPostTemplate = path.resolve('src/templates/blog-post.js');
   const tagTemplate = path.resolve("src/templates/tags.js");
