@@ -16,8 +16,9 @@ const social = {
 const website = {
   ...meta,
   ...social,
-  disqusShortName: 'anuraghazra',
-  googleAnalyticsID: 'UA-119972196-1',
+  disqusShortName: 'ahmedbesbes',
+  googleAnalyticsID: "UA-79148290-1",
+  
   // Manifest
   themeColor: '#6D83F2',
   backgroundColor: '#6D83F2',
