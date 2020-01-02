@@ -15,6 +15,7 @@ import Flex from "src/components/common/Flex";
 import Button from "src/components/common/Button";
 
 import { Card, CardIcon, CardText, CardTitle } from "src/components/common/Card";
+import cv from "src/static/pdfs/cv.pdf"
 
 const ThingsILove = () => (
   <Flex justify="space-between" align="center">
@@ -57,7 +58,7 @@ const Home = () => {
           <p className="adjust">AI Engineer // Blogger // Runner</p>
 
           <div className="home__CTA">
-            <Button className="cta" as="a" href="#">Download Resume</Button>
+            <Button className="cta" as="a" href={cv}>Download Resume</Button>
 
             <div className="home__social">
               <IconLink label="github" icon={["fab", "github"]} href="//github.com/ahmedbesbes" />

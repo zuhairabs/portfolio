@@ -33,6 +33,7 @@ const Projects = () => {
                 iframe
                 src
                 title
+                badgeUrl
               }
               fields {
                 slug
@@ -59,6 +60,7 @@ const Projects = () => {
                 <Button as={Link} to={node.fields.slug}>Learn more</Button>
                 <Button target="__blank" as="a" href={node.frontmatter.demo}>Live Demo</Button>
                 <IconButton label="github" icon={["fab", "github"]} href={node.frontmatter.src} />
+                <iframe src={node.frontmatter.badgeUrl} frameborder="0" scrolling="0" width="170px" height="20px"></iframe>                        
               </ProjectLinks>
             }
             preview={

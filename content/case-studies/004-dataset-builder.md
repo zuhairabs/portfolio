@@ -3,8 +3,10 @@ title: Image Dataset Builder
 excerpt: A script to help you quickly build custom computer vision datasets for object classification, detection or segmentation.
 
 iframe: //www.youtube.com/embed/qXLvMr9mrP4/?modestbranding=1&showinfo=0&autohide=1&rel=0
-demo: //www.youtube.com/embed/qXLvMr9mrP4/?modestbranding=1&showinfo=0&autohide=1&rel=0
+demo: //www.youtube.com/watch?v=qXLvMr9mrP4
 src: //github.com/ahmedbesbes/dataset-builder
+badgeUrl: "https://ghbtns.com/github-btn.html?user=ahmedbesbes&repo=dataset-builder&type=star&count=true" 
+
 
 info:
   idea: The main idea is to provide a script for quickly building custom computer vision datasets for classification, detection or segmentation

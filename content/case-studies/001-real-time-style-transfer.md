@@ -3,7 +3,7 @@ title: Real-time Style Transfer
 excerpt: This is a demo of a web application that applies the style of a painting directly on an input image. In real time.
 
 iframe: //www.youtube.com/embed/h3unBhNyi1Y/?modestbranding=1&showinfo=0&autohide=1&rel=0
-demo: //www.youtube.com/embed/h3unBhNyi1Y/?modestbranding=1&showinfo=0&autohide=1&rel=0
+demo: //www.youtube.com/watch?v=h3unBhNyi1Y
 
 info:
   idea: The main idea is to show some artsy 🎨 applications of neural networks!

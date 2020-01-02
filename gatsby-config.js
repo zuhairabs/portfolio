@@ -68,7 +68,25 @@ module.exports = {
           },
           `gatsby-plugin-sitemap`,
           `gatsby-plugin-robots-txt`,
-          `gatsby-plugin-netlify`
+          `gatsby-plugin-netlify`,
+          `gatsby-plugin-offline`,
+          {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+              name: `GatsbyJS`,
+              short_name: `GatsbyJS`,
+              start_url: `/`,
+              background_color: `#f7f0eb`,
+              theme_color: `#a2466c`,
+              display: `standalone`,
+            }
+          },
+          {
+            resolve: `gatsby-plugin-canonical-urls`,
+            options: {
+              siteUrl: `https://www.ahmedbesbes.com`,
+            },
+          },
         ]
       }
     },
