@@ -105,6 +105,8 @@ exports.createPages = ({ actions, graphql }) => {
   createRedirect({ fromPath: '/tags.html', toPath: '/blog/', isPermanent: true })
   createRedirect({ fromPath: '/categories.html', toPath: '/blog/', isPermanent: true })
   createRedirect({ fromPath: '/archives.html', toPath: '/blog/', isPermanent: true })
+  createRedirect({ fromPath: '/page/2/', toPath: '/blog/', isPermanent: true })
+  createRedirect({ fromPath: '/page/3/', toPath: '/blog/tags/', isPermanent: true })
   
   createRedirect({ fromPath: '/tag/aws/', toPath: '/blog/tags/aws/', isPermanent: true })
   createRedirect({ fromPath: '/tag/bag-of-words/', toPath: '/blog/tags/bag-of-words/', isPermanent: true })
@@ -156,6 +158,9 @@ exports.createPages = ({ actions, graphql }) => {
   createRedirect({ fromPath: '/tag/word-ngrams/', toPath: '/blog/tags/word-ngrams/', isPermanent: true })
   createRedirect({ fromPath: '/tag/word2vec/', toPath: '/blog/tags/word2-vec/', isPermanent: true })
   createRedirect({ fromPath: '/tag/workshop/', toPath: '/blog/tags/workshop/', isPermanent: true })
+
+  createRedirect({ fromPath: 'https://ahmedbesbes.netlify.com/*', toPath: 'https://www.ahmedbesbes.com/:splat', isPermanent: true, force: true })
+
 
   const caseStudyTemplate = path.resolve('src/templates/case-study.js');
   const blogPostTemplate = path.resolve('src/templates/blog-post.js');

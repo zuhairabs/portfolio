@@ -22,5 +22,5 @@ This is a web demo that allows to perform image captioning with visual attention
 The model implementation is in PyTorch and based on this [paper](https://arxiv.org/pdf/1502.03044.pdf) called: "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention"
 
 ## Code 
-
+ 
 Coming soon. 

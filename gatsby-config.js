@@ -55,7 +55,7 @@ module.exports = {
               showCaptions: true
             }
           },
-          `gatsby-plugin-social-banners`,
+          // `gatsby-plugin-social-banners`,
           `gatsby-plugin-twitter`,
           {
             resolve: `gatsby-plugin-nprogress`,
@@ -87,6 +87,61 @@ module.exports = {
               siteUrl: `https://www.ahmedbesbes.com`,
             },
           },
+          {
+            resolve: 'gatsby-plugin-page-progress',
+            options: {
+              includePaths: [{ regex: '^/blog' }, { regex: '^/case-studies' }],
+              excludePaths: ['/'],
+              height: 3,
+              prependToBody: false,
+              color: `#663399`,
+            }
+          },
+          {
+            resolve: `gatsby-remark-social-cards`,
+            options: {
+              title: {
+                // This is the frontmatter field the title should come from
+                field: "title",
+                // Currently only supports DejaVuSansCondensed
+                // More fonts coming soon!
+                font: "DejaVuSansCondensed",
+                color: "black", // black|white
+                size: 32, // 16|24|32|48|64
+                style: "bold", // normal|bold|italic
+                x: null, // Will default to xMargin
+                y: null, // Will default to yMargin
+              },
+              meta: {
+                // The parts array is what generates the bottom text
+                // Pass an array with strings and objects
+                // The following array will generate:
+                // "- Author Name » September 13"
+                // The objects are used to pull data from your markdown's
+                // frontmatter. { field: "author" } pulls the author set
+                // in the frontmatter. { field: "category" } would pull
+                // the category set. Any field can be used as parts
+                // Note: Only pass the "format" property on date fields
+                parts: [
+                  "- ",
+                  { field: "author" },
+                  " » ",
+                  { field: "date", format: "mmmm dS" },
+                ],
+                // Currently only supports DejaVuSansCondensed
+                // More fonts coming soon!
+                font: "DejaVuSansCondensed",
+                color: "black", // black|white
+                size: 24, // 16|24|32|48|64
+                style: "normal", // normal|bold|italic
+                x: null, // Will default to xMargin
+                y: null, // Will default to cardHeight - yMargin - size
+              },
+              background: "#B1ECE8", // Background color for the card
+              xMargin: 15, // Edge margin used when x value is not set
+              yMargin: 15,// Edge margin used when y value is not set
+            }
+          }
         ]
       }
     },
