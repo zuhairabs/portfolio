@@ -20,6 +20,7 @@
     "gatsby-plugin-manifest": "^2.2.34",
     "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-netlify": "^2.1.30",
+    "gatsby-plugin-netlify-cache": "^1.2.0",
     "gatsby-plugin-nprogress": "^2.1.17",
     "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-page-progress": "^2.0.14",

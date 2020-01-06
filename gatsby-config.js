@@ -96,6 +96,12 @@ module.exports = {
               prependToBody: false,
               color: `#663399`,
             }
+          },
+          {
+            resolve: "gatsby-plugin-netlify-cache",
+            options: {
+              cachePublic: true
+            }
           }
         ]
       }
