@@ -6,6 +6,7 @@ tags: ["gatsby", "react", "netlify"]
 excerpt: This is my new blog. Don't worry, the old articles have been migrated and new exciting things are coming up soon!
 slug: from-pelican-to-gatsby
 folder: /blog/12-switch-to-gatsby
+ogimage: images/cover-gatsby-netlify.jpg
 ---
 
 Happy new year 🎉 </br>

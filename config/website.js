@@ -4,7 +4,7 @@ const meta = {
   siteDescription: 'Ahmed BESBES - Data Scientist in the making.',
   siteTitleAlt: 'Ahmed BESBES',
   siteShortName: 'Ahmed BESBES',
-  siteUrl: 'https://ahmedbesbes.com', // No trailing slash!
+  siteUrl: 'https://www.ahmedbesbes.com', // No trailing slash!
 }
 
 const social = {

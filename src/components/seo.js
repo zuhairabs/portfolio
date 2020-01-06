@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import socialBanner from '../static/images/social-banner.jpg';
 
 
-function SEO({ title, description, slug, isBlogPost }) {
+function SEO({ title, description, slug, isBlogPost, image }) {
   const { site } = useStaticQuery(graphql`
     {
       site {
@@ -36,11 +36,12 @@ function SEO({ title, description, slug, isBlogPost }) {
 
   let url = `${defaults.siteUrl}${slug || ''}`;
   let twitter = defaults.twitter;
-  let ogimage = `${defaults.siteUrl}${socialBanner}`;
+  // let ogimage = `${defaults.siteUrl}${socialBanner}`;
+  let ogimage = defaults.siteUrl + (image || socialBanner)
 
   if (isBlogPost) {
     title = title + ' | Ahmed BESBES'
-    ogimage = `${defaults.siteUrl}${slug}/social-banner-img.jpg`;
+    // ogimage = `${defaults.siteUrl}${slug}/social-banner-img.jpg`;
   }
   // console.log({ url, title, description, twitter, ogimage, imageWidth, imageHeight })
   return (

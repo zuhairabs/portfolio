@@ -19,6 +19,9 @@ const BlogPost = ({ data, pageContext }) => {
   const { title, date, folder } = data.markdownRemark.frontmatter;
   const { timeToRead, html, excerpt, id } = data.markdownRemark;
 
+  const { ogimage } = data.markdownRemark.frontmatter
+  const ogImagePath = ogimage && ogimage.childImageSharp.fixed.src
+
   const baseSlugUrl = siteUrl + pageContext.slug;
   const disqusConfig = {
     identifier: id,
@@ -30,7 +33,7 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO isBlogPost title={title} description={excerpt} slug={pageContext.slug} />
+      <SEO isBlogPost title={title} description={excerpt} slug={pageContext.slug} image={ogImagePath}/>
 
       <BlogLayout sharerSection={
         <div>
@@ -67,6 +70,13 @@ export const query = graphql`
         date(formatString: "MMMM DD, YYYY", locale: "en")
         title
         folder
+        ogimage { 
+          childImageSharp {
+            fixed { 
+              src
+            }
+          }
+        }
       }
     }
   }
