@@ -6,6 +6,7 @@ tags: ['mlbox', 'automl']
 excerpt: Learn about automated machine learning by using the MLBox package. This library will help you train a pipeline for a classification problem. It'll start off by loading and cleaning the data, removing drift, launching a robust pipeline of accelerated optimization, generating predictions and much more...
 slug: introduction-to-mlbox
 folder: /blog/10-introduction-to-mlbox
+ogimage: images/cover-mlbox.png
 ---
 
 Today's post is very special. It's written in collaboration with <a href="https://www.linkedin.com/in/axel-de-romblay-6444a990/">Axel de Romblay</a> the author of the MLBox Auto-ML package that has gained a lot of popularity these last years. 

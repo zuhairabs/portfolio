@@ -1,6 +1,6 @@
 ---
 title: Real-time Style Transfer
-excerpt: This is a demo of a web application that applies the style of a painting directly on an input image. In real time.
+excerpt: A fun application of computer vision on how to mix the style of a painting (say the Starry Night of Van Gogh) and the content of the photograph. Model trained using PyTorch and app built with html and jQuery.
 
 iframe: //www.youtube.com/embed/h3unBhNyi1Y/?modestbranding=1&showinfo=0&autohide=1&rel=0
 demo: //www.youtube.com/watch?v=h3unBhNyi1Y

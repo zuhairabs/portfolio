@@ -6,7 +6,9 @@ tags: ['nlp', 'word2vec', 'doc2vec', 'deep learning', 'keras', 'neural networks'
 excerpt: Learn how to perform sentiment analysis on tweets using the word2vec embedding model and neural networks via Keras
 slug: sentiment-analysis-with-keras-and-word-2-vec
 folder: /blog/3-sentiment-anlysis-with-keras
+ogimage: images/cover-sentiment.jpg
 ---
+
 
 ## 1 - Introduction 🚀
 

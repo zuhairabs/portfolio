@@ -6,6 +6,7 @@ tags: ['mri', 'medical imaging', 'mrnet', 'convolutional neural networks', 'pyto
 excerpt:  In this post, we will focus on interpretability to assess what the ACL tear detector we trained in the previous article actually learnt. To do this, we'll explore a popular interpretability technique called Class Activation Map, applied when using convolutional neural networks that have a special architecture. 
 slug: acl-tear-detection-part-3
 folder: /blog/8-acl-tear-detection-part-3
+ogimage: images/cover-acl-3.jpg
 ---
 
 *This post is the third and last one of a series I dedicated to medical imaging and deep learning. If you're interested in this topic you can read my <a href="https://ahmedbesbes.com/automate-the-diagnosis-of-knee-injuries-with-deep-learning-part-1-an-overview-of-the-mrnet-dataset.html">first article</a> where I explore the MRNet knee MRI dataset released by Stanford and my <a href="https://ahmedbesbes.com/automate-the-diagnosis-of-knee-injuries-with-deep-learning-part-1-an-overview-of-the-mrnet-dataset.html">second article</a> where I train a convolutional neural network to classify the related knee injuries. The model is implemented in PyTorch and the source code is now available on my github <a href="https://github.com/ahmedbesbes/mrnet">repo</a>.*

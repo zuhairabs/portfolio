@@ -1,6 +1,6 @@
 ---
 title: Neural Networks from Scratch
-excerpt: Learn how to build and train a neural network from scratch. In pure Python only with no frameworks involved. 
+excerpt: Learn how to build and train a neural network from scratch. In pure Python only with no frameworks involved. This script helps you start this project.
 
 iframe: //www.youtube.com/embed/lsiAMB2DWP0/?modestbranding=1&showinfo=0&autohide=1&rel=0
 demo: //www.youtube.com/watch?v=lsiAMB2DWP0

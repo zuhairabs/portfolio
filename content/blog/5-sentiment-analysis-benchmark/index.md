@@ -6,6 +6,7 @@ tags: ['nlp', 'sentiment analysis', 'cnn', 'rnn', 'gru', 'transfer learning', 'd
 excerpt: How do deeo learning models based on convoutions (CNNs) and recurrents cells (RNNs) compare to Bag of Words models in the case of a classification problem
 slug: benchmarking-sentiment-analysis-models
 folder: /blog/5-sentiment-analysis-benchmark
+ogimage: images/cover-benchmark.png
 ---
 
 This article is an extension of a <a href="https://ahmedbesbes.com/sentiment-analysis-on-twitter-using-word2vec-and-keras.html" style="text-decoration: none">previous one</a> I wrote when I was experimenting sentiment analysis on twitter data. Back in the time, I explored a simple model: a two-layer feed-forward neural network trained on **keras**. The input tweets were represented as document vectors resulting from a weighted average of the embeddings of the words composing the tweet.

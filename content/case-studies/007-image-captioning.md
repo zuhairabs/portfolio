@@ -1,6 +1,6 @@
 ---
 title: Image Captioning
-excerpt: This is a web app I built to show how to perform image captioning using an encoder decoder with an attention mechansim. The attention mechansim highlights where the network looks at when generating each token.
+excerpt: How to translate an image to text with the ability to interpret what the machine learning algorithm sees? This is possible using neural networks and specifically encoder-decoders with attention mechanisms.
 
 iframe: //www.youtube.com/embed/RlNjzz358Jc/?modestbranding=1&showinfo=0&autohide=1&rel=0
 demo: //www.youtube.com/watch?v=RlNjzz358Jc

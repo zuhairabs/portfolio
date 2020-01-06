@@ -6,6 +6,7 @@ excerpt: Learn how to tackle a kaggle competition from the beginning till the en
 tags: ['kaggle', 'classification', 'data science', 'titanic challenge', 'tutorial']
 slug: kaggle-titanic-competition
 folder: /blog/1-ace-the-titanic-kaggle-challenge
+ogimage: images/cover-titanic.png
 ---
 
 

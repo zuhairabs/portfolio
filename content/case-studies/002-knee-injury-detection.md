@@ -1,6 +1,6 @@
 ---
 title: "Deep learning for knee injury diagnosis"
-excerpt: "This repository contains an implementation of a convolutional neural network that classifies specific knee injuries from MRI exams."
+excerpt: "This repository contains an implementation of a convolutional neural network that classifies specific knee injuries from MRI exams. Check it if you want to learn more or to adapt the code to another medical imaging problem."
 slug: mrnet network
 
 iframe: //www.youtube.com/embed/SbNGj51kW28/?modestbranding=1&showinfo=0&autohide=1&rel=0

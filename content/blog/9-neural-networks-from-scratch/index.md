@@ -6,6 +6,7 @@ tags: ['neural networks', 'deep learning', 'workshop', 'slides', 'presentation']
 excerpt: Learn about neural networks and implement them from scratch using Python only with no frameworks involved
 slug: neural-networks-from-scratch
 folder: /blog/9-neural-networks-from-scratch
+ogimage: images/cover-nn.jpeg
 ---
 
 If you're willing to understand how neural networks work behind the scene and debug the back-propagation algorithm step by step by yourself, these slides should be a good starting point. <br> We will cover deep learning popular applications, the concept of the artificial neuron and how it relates to the biological one, the perceptron and the multi-layer one. We'll also dive in activation functions, loss functions and **formalize the training of a neural net via the back-propagation algorithm.** <br> In the last part, you'll learn how to code a fully functioning trainable neural network from scratch. In pure python code only, with no frameworks involved. 

@@ -6,6 +6,7 @@ tags: ["deep learning", "convolutional neural networks", "image classification",
 excerpt: Learn about Convolutional Neural Networks with a hands-on classification problem using Tensorflow and Keras
 slug: introduction-to-cnns
 folder: /blog/4-intro-to-cnn-with-tensorflow-and-keras
+ogimage: images/cover-cnn.png
 ---
 
 

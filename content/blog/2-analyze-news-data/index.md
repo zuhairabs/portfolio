@@ -6,6 +6,7 @@ tags: ['nlp', 'topic mining', 'tf-idf', 'lda', 'newsapi.org', 'text clustering',
 excerpt: Learn how to cluster and visualize news data using KMeans, LDA and interactive plotting with Bokeh
 slug: interactive-topic-mining
 folder: /blog/2-analyze-news-data
+ogimage: images/cover-news.jpg
 ---
 
     

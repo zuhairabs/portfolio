@@ -6,6 +6,7 @@ tags: ['computer vision', 'mri', 'medical imaging', 'computer vision', 'mrnet', 
 excerpt: This a first post of a series dedicated to medical imaging using deep learning. Today, we'll explore an MRI dataset of knee injuries.
 slug: acl-tear-detection-part-1
 folder: /blog/6-acl-tear-detection-part-1
+ogimage: images/cover-acl-1.jpg
 ---
 
 I have always been amazed by impactful AI applications that transform people’s life and one of the areas where I see this transformation happening nowadays is healthcare.

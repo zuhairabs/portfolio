@@ -5,7 +5,7 @@ const useForm = () => {
   const [errors, setErrors] = useState({});
 
   const emailregex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
-  const nameregex = /^[a-zA-Z\s]*[^\s]$/img;
+  const nameregex = /^[a-zA-Z\s\-]*[^\s]$/img;
   const messageregex = /^[\w\d][^<>/\\&]*$/img;
 
   function isValid(value, name, regex, text) {

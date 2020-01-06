@@ -6,6 +6,7 @@ tags: ["docker", "aws", "pytorch", "dash", "deployment", "character level cnn", 
 excerpt: Learn how build an end to end machine learning application from scratch. To do this, we'll walk you through the process of collecting data, training a deep learning model, building a Dash application, putting everything in Docker and deploying to AWS. This post is a little bit longer than usual but the different parts are independant and reusable in other projects.
 slug: end-to-end-machine-learning
 folder: /blog/11-end-to-end-ml
+ogimage: images/cover-e2e.png
 ---
 
 *This started out as a challenge. With a [friend](http://marwandebbiche.com) of mine, we wanted to see if it was possible to build something from scratch and push it to production. In 3 weeks. This is our story.*

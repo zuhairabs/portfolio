@@ -6,6 +6,7 @@ tags: ['computer vision', 'mri', 'medical imaging', 'computer vision', 'mrnet', 
 excerpt: In this post, you'll learn how to use PyTorch to train an ACL tear classifier that sucessfully detects these injuries from MRIs with a very high performance. We'll dive into the code and we'll go through various tips and tricks ranging from transfer learning to data augmentation, stacking and handling medical images.
 slug: acl-tear-detection-part-2
 folder: /blog/6-acl-tear-detection-part-2
+ogimage: images/cover-acl-2.png
 ---
 
 This post is a follow-up to the <a href="http://ahmedbesbes.com/automate-the-diagnosis-of-knee-injuries-with-deep-learning-part-1-an-overview-of-the-mrnet-dataset.html">previous one</a> in which we explored the problem of ACL tears and the related MRNet dataset released by Stanford ML group. If you want to learn more about Stanford's work you can visit this <a href="https://stanfordmlgroup.github.io/projects/mrnet/">link</a>.
