@@ -337,7 +337,7 @@ hover.tooltips={"word": "@words"}
 show(plot_tfidf)
 ```
 
-<iframe width=100% height=620 frameBorder="0" src="https://ahmedbesbes.com/plot.html"></iframe>
+<iframe width=100% height=620 frameBorder="0" src="https://s3.eu-west-3.amazonaws.com/ahmedbesbes.com/plot.html"></iframe>
 
 Zoom in, zoom out, place the cursor wherever you want and navigate in the graph. When clicking on a point, you can see the corresponding word. Convince yourself that grouped data points correspond to words of similar context.
 

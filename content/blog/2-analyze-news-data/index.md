@@ -1664,7 +1664,11 @@ panel = pyLDAvis.gensim.prepare(best_model, corpus, id2word)
 pyLDAvis.save_html(panel, './plots/pyLDAvis.html')
 ```
 
- **Demo** : <a href="https://ahmedbesbes.com/pyldavis.html">  here </a> 
+ **Demo** : <a href="https://s3.eu-west-3.amazonaws.com/ahmedbesbes.com/pyldavis.html" target="_blank">here</a>
+
+<iframe width=100% height=620 frameBorder="0" src="https://s3.eu-west-3.amazonaws.com/ahmedbesbes.com/pyldavis.html"></iframe>
+
+
 
 ### [BONUS] NMF: Non-negative Matrix Factorization
 

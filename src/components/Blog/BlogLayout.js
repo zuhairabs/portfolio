@@ -28,7 +28,7 @@ const BlogLayout = ({ children, sharerSection }) => {
             <br /><br />
           </section>
           <section>
-            <h4>Tags</h4>
+            <h4>Explore tags</h4>
             <Tags />
             <br />
           </section>

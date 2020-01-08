@@ -17,7 +17,7 @@ info:
 ---
 
 
-In this job, I collaborated with <a href="https://github.com/MarwanDebbiche">Marwane Debbiche</a>
+In this job, I collaborated with <a href="https://github.com/MarwanDebbiche">Marwan Debbiche</a>
 
 You may read about it <a href="https://ahmedbesbes.com/blog/end-to-end-machine-learning">here</a> and <a href="https://marwandebbiche.com/posts/e2e-ml/">here</a>.
 
