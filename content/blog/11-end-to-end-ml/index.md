@@ -3,7 +3,7 @@ title: "End to End Machine Learning: From Data Collection to Deployment 🚀"
 date: 2019-11-22 10:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES, Marwan Debbiche
 tags: ["docker", "aws", "pytorch", "dash", "deployment", "character level cnn", "sentiment analysis"]
-excerpt: Learn how build an end to end machine learning application from scratch. To do this, we'll walk you through the process of collecting data, training a deep learning model, building a Dash application, putting everything in Docker and deploying to AWS. This post is a little bit longer than usual but the different parts are independant and reusable in other projects.
+excerpt: Learn how build an end to end machine learning application from scratch. To do this, we'll walk you through the process of collecting data, training a deep learning model, building a Dash application, putting everything in Docker and deploying to AWS. This post is a little bit longer than usual but the different parts are independant and reusable in other projects
 slug: end-to-end-machine-learning
 folder: /blog/11-end-to-end-ml
 ogimage: images/cover-e2e.png
@@ -17,7 +17,8 @@ Before we begin, let's have a look at the app we'll be building:
 
 <p align="center">
     <video height="400" autoplay="autoplay" controls loop>
-    <source src="https://s3.eu-west-3.amazonaws.com/ahmedbesbes.com-assets/app.mp4" type="video/mp4">
+    <!-- <source src="https://s3.eu-west-3.amazonaws.com/ahmedbesbes.com-assets/app.mp4" type="video/mp4"> -->
+    <source src="./images/app.mp4" type="video/mp4">
     </video>
 </p>
 

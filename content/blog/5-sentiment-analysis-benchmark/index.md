@@ -3,7 +3,7 @@ title: Overview and benchmark of traditional and deep learning models in text cl
 date: 2018-06-12 10:10:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ['nlp', 'sentiment analysis', 'cnn', 'rnn', 'gru', 'transfer learning', 'deep learning', 'keras', 'neural networks', 'twitter', 'glove', 'bag of words', 'word ngrams', 'character ngrams']
-excerpt: How do deeo learning models based on convoutions (CNNs) and recurrents cells (RNNs) compare to Bag of Words models in the case of a classification problem
+excerpt: How do deep learning models based on convolutions (CNNs) and recurrents cells (RNNs) compare to Bag of Words models in the case of a sentiment classification problem
 slug: benchmarking-sentiment-analysis-models
 folder: /blog/5-sentiment-analysis-benchmark
 ogimage: images/cover-benchmark.png

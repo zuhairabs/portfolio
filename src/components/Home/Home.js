@@ -39,7 +39,7 @@ const ThingsILove = () => (
       <CardIcon><FontAwesomeIcon icon={faRocket}/></CardIcon>
       <CardTitle>Deployment</CardTitle>
       <CardText>
-        I push apps to production. Docker is one of my friends
+        I go beyond scripts and notebooks and deploy apps to production
       </CardText>
     </Card>
   </Flex>

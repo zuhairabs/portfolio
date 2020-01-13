@@ -3,7 +3,7 @@ title: "Automate the diagnosis of Knee Injuries 🏥 with Deep Learning part 2: 
 date: 2019-07-14 12:00:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ['computer vision', 'mri', 'medical imaging', 'computer vision', 'mrnet', 'convolutional neural networks', 'pytorch', 'image classification']
-excerpt: In this post, you'll learn how to use PyTorch to train an ACL tear classifier that sucessfully detects these injuries from MRIs with a very high performance. We'll dive into the code and we'll go through various tips and tricks ranging from transfer learning to data augmentation, stacking and handling medical images.
+excerpt: In this post, you'll learn how to use PyTorch to train an Anterior Cruciate Ligament (ACL) tear classifier that sucessfully detects these injuries from MRIs with a very high performance. We'll dive into the code and we'll go through various tips and tricks ranging from transfer learning to data augmentation, stacking and handling medical images
 slug: acl-tear-detection-part-2
 folder: /blog/6-acl-tear-detection-part-2
 ogimage: images/cover-acl-2.png

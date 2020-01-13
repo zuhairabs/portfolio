@@ -3,7 +3,7 @@ title: Introduction to Neural Networks and Deep Learning from scratch 💡
 date: 2019-08-31 12:00:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ['neural networks', 'deep learning', 'workshop', 'slides', 'presentation']
-excerpt: Learn about neural networks and implement them from scratch using Python only with no frameworks involved
+excerpt: Learn about neural networks and implement them from scratch using Python only with no frameworks involved. Back-propagation will no longer be a mystery
 slug: neural-networks-from-scratch
 folder: /blog/9-neural-networks-from-scratch
 ogimage: images/cover-nn.jpeg

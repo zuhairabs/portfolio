@@ -3,7 +3,7 @@ title: "Automate the diagnosis of Knee Injuries 🏥 with Deep Learning part 1: 
 date: 2019-06-25 12:00:00 # YYYY-MM-DD - H:M:S
 author: Ahmed BESBES
 tags: ['computer vision', 'mri', 'medical imaging', 'computer vision', 'mrnet', 'convolutional neural networks', 'pytorch', 'image classification', 'jupyter widgets']
-excerpt: This a first post of a series dedicated to medical imaging using deep learning. Today, we'll explore an MRI dataset of knee injuries.
+excerpt: This is a first post of a series dedicated to medical imaging using deep learning. Today, we'll explore an MRI dataset of knee injuries
 slug: acl-tear-detection-part-1
 folder: /blog/6-acl-tear-detection-part-1
 ogimage: images/cover-acl-1.jpg
