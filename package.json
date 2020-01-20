@@ -74,6 +74,7 @@
     "babel-preset-gatsby": "^0.2.18",
     "cypress": "^3.5.0",
     "gatsby-plugin-root-import": "^2.0.5",
+    "gatsby-remark-code-buttons": "^2.0.4",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
     "prettier": "^1.18.2",

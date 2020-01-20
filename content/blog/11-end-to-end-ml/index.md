@@ -414,7 +414,7 @@ We'll let it run for a little bit of time.
 
 Note that we can interrupt it at any moment since it saves the data on the fly on this output folder is ```src/scraping/scrapy```.
 
-## 2 - Training a sentiment classifer usig PyTorch 🤖
+## 2 - Training a sentiment classifier using PyTorch 🤖
 
 *The code and the model we'll be using here are inspired from this github <a href="https://github.com/ahmedbesbes/character-based-cnn">repo</a> so go check it for additional information. If you want to stick to this project's repo you can look at this <a href="https://github.com/MarwanDebbiche/post-tuto-deployment/tree/master/src/training">link</a>*.
 

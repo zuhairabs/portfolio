@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faYoutube, faQuora, faLinkedinIn, faStackOverflow} from '@fortawesome/free-brands-svg-icons'
+import { faYoutube, faQuora, faLinkedinIn, faStackOverflow, faMedium} from '@fortawesome/free-brands-svg-icons'
 import { faRobot, faRocket } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -64,7 +64,7 @@ const Home = () => {
               <IconLink label="github" icon={["fab", "github"]} href="//github.com/ahmedbesbes" />
               <IconLink label="linkedin" icon={faLinkedinIn} href="//linkedin.com/in/ahmed-besbes-99a91661/" />
               <IconLink label="twitter" icon={["fab", "twitter"]} href="//twitter.com/ahmed_besbes_" />
-              <IconLink label="stack-overflow" icon={faStackOverflow} href="//stackoverflow.com/users/4583959/ahmed-besbess" />
+              <IconLink label="medium" icon={faMedium} href="//medium.com/@ahmedbesbes" />
               <IconLink label="youtube" icon={faYoutube} href="//youtube.com/channel/UCP1M7FpkpNljH4r6ORiRg6g?view_as=subscriber" />
             </div>
           </div>

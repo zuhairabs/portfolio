@@ -14,7 +14,7 @@ I hope you've all enjoyed some quality time with family and friends and prepared
 
 As for me, one of the first things I wanted to accomplish this year was the complete redesign of my blog. This one was built using the <a target='_blank' href="https://docs.getpelican.com/en/stable/">Pelican</a> python-based static site generator combined with the <a target="_blank" href="https://github.com/alexandrevicenzi/Flex">Flex</a> theme.
 
-All in all, it emcompassed interesting features like mobile responsiveness and plugins for Disqus, AddThis and Google Analytics.</br>
+All in all, it encompassed interesting features like mobile responsiveness and plugins for Disqus, AddThis and Google Analytics.</br>
 And most importantly, it easily integrated with Markdown files which was convenient for post writing.
 
 ![My old blog](./images/screenshot.png)
@@ -31,7 +31,7 @@ The template I was using didn't allow me to showcase personal projects and open 
 
 ### Some code highlighting issues ❌
 
-Embedding code snippets is an important part of my posts. I unfortunately noticed a frustrating rendreing problem that appears on mobile devices such as the wrap of long lines of codes. </br> Seriously who wants to read that kind of code? 
+Embedding code snippets is an important part of my posts. I unfortunately noticed a frustrating rendering problem that appears on mobile devices such as the wrap of long lines of codes. </br> Seriously who wants to read that kind of code? 
 
 ### A limited set of plugins 🤷‍♂️
 
@@ -68,7 +68,7 @@ But here's some steps to quick start:
 
 1. Install node and npm. If you're using a Mac for instance, you can launch this command assuming you have homebrew.
 
-```bash
+```js
 brew install node
 ```
 

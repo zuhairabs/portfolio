@@ -102,7 +102,7 @@ module.exports = {
             options: {
               cachePublic: true
             }
-          }
+          },
         ]
       }
     },
