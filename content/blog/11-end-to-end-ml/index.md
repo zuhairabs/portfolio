@@ -37,7 +37,7 @@ To build this application we'll follow these steps:
 - Dockerizing the app using Docker Compose
 - Deploying to AWS 
 
-All the code is available in our github <a href="https://github.com/MarwanDebbiche/post-tuto-deployment">repository</a> and organized in independant directories, so you can check it, run it and improve it.
+All the code is available in our github <a href="https://github.com/MarwanDebbiche/post-tuto-deployment">repository</a> and organized in independent directories, so you can check it, run it and improve it.
 
 Let's get started! 💻
 
@@ -201,7 +201,7 @@ def go_next_page():
 
 Now we initialize Selenium with a headless Chromedriver. This prevents Selenium from opening up a Chrome window thus accelerating the scraping.
 
-PS: You'll have to donwload Chromedriver from this <a href="https://chromedriver.chromium.org/">link</a> and choose the one that matches your operatig system. It's basically a binary of a Chrome browser that Selenium uses to start.
+PS: You'll have to download Chromedriver from this <a href="https://chromedriver.chromium.org/">link</a> and choose the one that matches your operating system. It's basically a binary of a Chrome browser that Selenium uses to start.
 
 ```python
 options = Options()
@@ -220,7 +220,7 @@ timeout = 3
 ```
 The timeout variable is the time (in seconds) Selenium waits for a page to completely load.
 
-Now we launch the scraping. This approximatively takes 50 minutes with good internet connexion.
+Now we launch the scraping. This approximately takes 50 minutes with good internet connection.
 
 ```python
 company_urls = {}
@@ -449,7 +449,7 @@ Text is however not suited to this type of convolutions because letters follow e
 
 **So how does a 1-D convolution work?**
 
-Unlike 2D-convolutions that make a 2D kernel slide horizontally and vertically over the pixels, 1D-convolutions use 1D kernels that slide horizontally only over the columns (i.e. the characters) to capture the dependency between characters and their compositions. You could think for example about a 1D kernel of size 3 as a character 3-gram detector that fires when it detects a composition of three sucessive letters that is relevant to the prediction.
+Unlike 2D-convolutions that make a 2D kernel slide horizontally and vertically over the pixels, 1D-convolutions use 1D kernels that slide horizontally only over the columns (i.e. the characters) to capture the dependency between characters and their compositions. You could think for example about a 1D kernel of size 3 as a character 3-gram detector that fires when it detects a composition of three successive letters that is relevant to the prediction.
 
 The diagram below shows the architecture we'll be using: 
 
@@ -597,7 +597,7 @@ The Dash app will make http requests to the Flask API, wich will in turn interac
 
 If you are already familiar with Dash, you know that it is built on top of Flask. So we could basically get rid of the API and put everything within the dash code.
 
-We chose not to for a very simple reason: **it makes the logic and the visualization parts independant**. Indeed, because we have a separated API, we can with very little effort replace the Dash app with any other frontend technology, or add a mobile or desktop app.
+We chose not to for a very simple reason: **it makes the logic and the visualization parts independent**. Indeed, because we have a separated API, we can with very little effort replace the Dash app with any other frontend technology, or add a mobile or desktop app.
 
 Now, let's have a closer look at how those blocks are built. 
 
@@ -909,8 +909,8 @@ In our app, we also used [dash bootstrap components](https://dash-bootstrap-comp
 
 #### Callbacks
 
-To make these components interact with each other, dash introduced the concept of `callback`. Callbacks are functions that get called to affect the appearance of an html element (the **Output**) everytime the value of another element (the **Input**) changes.
-Imagine the following situation: you have an html input field of id="A" and you want when everytime it gets an input to copy it inside a paragraph element of id="B", dynamically, without reloading the page. 
+To make these components interact with each other, dash introduced the concept of `callback`. Callbacks are functions that get called to affect the appearance of an html element (the **Output**) every time the value of another element (the **Input**) changes.
+Imagine the following situation: you have an html input field of id="A" and you want when every time it gets an input to copy it inside a paragraph element of id="B", dynamically, without reloading the page. 
 
 Here's how you'd do it with a callback:
 
