@@ -2,8 +2,8 @@
 title: Real-time Style Transfer
 excerpt: A fun application of computer vision on how to mix the style of a painting (say the Starry Night of Van Gogh) and the content of the photograph. Model trained using PyTorch and app built with html and jQuery.
 
-iframe: //www.youtube.com/embed/h3unBhNyi1Y/?modestbranding=1&showinfo=0&autohide=1&rel=0
-demo: //www.youtube.com/watch?v=h3unBhNyi1Y
+iframe: //miro.medium.com/max/1400/1*1A15ZgDnOn_64myq4rxxkg.png
+demo: //
 
 info:
   idea: The main idea is to show some artsy 🎨 applications of neural networks!
