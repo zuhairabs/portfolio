@@ -43,9 +43,9 @@ export const CodeCard = () => {
     <CodeCardWrapper>
       <pre>1   class <b>Person</b> {'{'}</pre>
       <pre>2         constructor() {'{'}</pre>
-      <pre>3             this.name = "<b>Ahmed BESBES</b>";</pre>
-      <pre>4             this.skills = ["<b>Machine Learning</b>", "<b>Software</b>", 
-                                        "<b>DevOps</b>"];</pre>
+      <pre>3             this.name = "<b>Zuhair Abbas</b>";</pre>
+      <pre>4             this.skills = ["<b>Machine Learning</b>", "<b>Data Science</b>", 
+                                        "<b>Developer</b>"];</pre>
       <pre>6         {"}"}</pre>
       <pre>7   {"}"}</pre>
     </CodeCardWrapper>
