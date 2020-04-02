@@ -40,7 +40,7 @@ function SEO({ title, description, slug, isBlogPost, image }) {
   let ogimage = defaults.siteUrl + (image || socialBanner)
 
   if (isBlogPost) {
-    title = title + ' | Ahmed BESBES'
+    title = title + ' | Zuhair Abbas'
     // ogimage = `${defaults.siteUrl}${slug}/social-banner-img.jpg`;
   }
   // console.log({ url, title, description, twitter, ogimage, imageWidth, imageHeight })
