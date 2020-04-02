@@ -17,15 +17,15 @@ const About = () => {
       <SkewBg />
       <AboutInfo>
         <div>
-          <Avatar src="ahmed.jpg" />
+          <Avatar src="me.png" />
         </div>
         <p>
-          Hello there 👋 I'm Ahmed. 
+          Hello there 👋 I'm Zuhair. 
           <br />
           I hope you stumbled upon this website on purpose! Otherwise, let me introduce you to my world 🌍 
           <br />
           <br />
-          I'm a data scientist living in France 🇫🇷. I've been working accross many industries such as financial services, media and public sector.
+          I'm a data scientist living in India 🇮🇳. I've been working on many projects.
           <br />
           Part of my work include crafting, building and deploying AI applications to answer business issues.
           <br/>
