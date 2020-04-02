@@ -30,7 +30,7 @@ const About = () => {
           Part of my work include crafting, building and deploying AI applications to answer business issues.
           <br/>
           I also blog about technical topics such as deep learning. You can check my open source <a className="about__rkmscc-link" href="#projects"> projects</a>,
-          <a className="about__rkmscc-link" href="blog"> my blog</a> and my <a className="about__rkmscc-link" href="https://github.com/ahmedbesbes">github</a> for more details.
+          <a className="about__rkmscc-link" href="blog"> my blog</a> and my <a className="about__rkmscc-link" href="https://github.com/zuhairabs">github</a> for more details.
           <br />
           <br />
           Whether you're having an idea or a business inquiry, do not hesitate to drop a message below ⬇️
