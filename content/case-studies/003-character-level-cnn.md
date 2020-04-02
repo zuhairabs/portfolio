@@ -1,7 +1,7 @@
 ---
 title: Character Level CNN
 excerpt: You'll find here a PyTorch implementation of a character level CNN for text classification by Zhang and Lecun (2015) and a video tutorial (by me) accompanying it.
-iframe: //
+iframe: //github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/character-level-cnn/character_cnn.png
 demo: //
 src: //github.com/zuhairabs/
 badgeUrl: "https://ghbtns.com/github-btn.html?user=ahmedbesbes&repo=character-based-cnn&type=star&count=true" 
