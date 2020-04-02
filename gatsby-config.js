@@ -84,7 +84,7 @@ module.exports = {
           {
             resolve: `gatsby-plugin-canonical-urls`,
             options: {
-              siteUrl: `https://www.ahmedbesbes.com`,
+              siteUrl: `https://zuhairabs.netlify.com`,
             },
           },
           {
