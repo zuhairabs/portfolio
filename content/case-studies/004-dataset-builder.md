@@ -2,10 +2,10 @@
 title: Image Dataset Builder
 excerpt: This is a script to help you quickly build custom computer vision datasets for object classification, detection or segmentation. It relies on google_images_download package that scrapes images for each class you define.
 
-iframe: //www.youtube.com/embed/qXLvMr9mrP4/?modestbranding=1&showinfo=0&autohide=1&rel=0
-demo: //www.youtube.com/watch?v=qXLvMr9mrP4
-src: //github.com/ahmedbesbes/dataset-builder
-badgeUrl: "https://ghbtns.com/github-btn.html?user=ahmedbesbes&repo=dataset-builder&type=star&count=true" 
+iframe: //github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/dataset-builder/class_names.png
+demo: //
+src: //github.com/zuhairabs/
+badgeUrl: "https://ghbtns.com/github-btn.html?user=zuhairabs&repo=&type=star&count=true" 
 
 
 info:
