@@ -1,7 +1,7 @@
 ---
 title: "End to End Machine Learning: From Data Collection to Deployment 🚀"
 date: 2019-11-22 10:00 # YYYY-MM-DD - H:M:S
-author: Ahmed BESBES, Marwan Debbiche
+author: Zuhair Abbas
 tags: ["docker", "aws", "pytorch", "dash", "deployment", "character level cnn", "sentiment analysis"]
 excerpt: Learn how build an end to end machine learning application from scratch. To do this, we'll walk you through the process of collecting data, training a deep learning model, building a Dash application, putting everything in Docker and deploying to AWS. This post is a little bit longer than usual but the different parts are independant and reusable in other projects
 slug: end-to-end-machine-learning
@@ -416,7 +416,7 @@ Note that we can interrupt it at any moment since it saves the data on the fly o
 
 ## 2 - Training a sentiment classifier using PyTorch 🤖
 
-*The code and the model we'll be using here are inspired from this github <a href="https://github.com/ahmedbesbes/character-based-cnn">repo</a> so go check it for additional information. If you want to stick to this project's repo you can look at this <a href="https://github.com/MarwanDebbiche/post-tuto-deployment/tree/master/src/training">link</a>*.
+*The code and the model we'll be using here are inspired from this github so go check it for additional information. If you want to stick to this project's repo you can look at this <a href="https://github.com/MarwanDebbiche/post-tuto-deployment/tree/master/src/training">link</a>*.
 
 Now that the data is collected, we're ready to train a sentiment classifier to predict the labels we defined earlier.
 
@@ -570,7 +570,7 @@ Few remarks according to these figures:
 - The model is very good at identifying good and bad reviews. It has a slightly lower performance on average reviews though. This can be explained by the core nature of these reviews. They are more nuanced in general and easily, even for a human, mis-interpreted as bad or good reviews.
 - A three class classification problem is more difficult than a binary one. In fact, if you focus on a binary classification problem, you can reach 95% accuracy. Nevertheless, training a 3 class classifier has the advantage of identifying mitigated reviews which can be interesting.
 
-To learn more about the training arguments and options, please check out the original <a href="https://github.com/ahmedbesbes/character-based-cnn">repo</a>.
+To learn more about the training arguments and options, please check out the original
 
 From now on, we'll use the trained model that is saved as a release <a href="https://github.com/ahmedbesbes/character-based-cnn/releases/download/model_en_tp_amazon/model_tp_amazon_1014.pth">here</a>. When running the app for the first time, it'll get downloaded from that link and locally saved (in the container) for the inference.
 
