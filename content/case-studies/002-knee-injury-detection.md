@@ -17,12 +17,6 @@ info:
     - ["Deep-learning-assisted diagnosis for knee magnetic resonance imaging: Development and retrospective validation of MRNet", https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.1002699&type=printable]
 ---
 
-[![MIT](https://img.shields.io/badge/license-MIT-5eba00.svg)](https://github.com/ahmedbesbes/character-based-cnn/blob/master/LICENSE)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ahmedbesbes/mrnet)
-[![Twitter](https://img.shields.io/twitter/follow/ahmed_besbes_.svg?label=Follow&style=social)](https://twitter.com/ahmed_besbes_)
-[![Stars](https://img.shields.io/github/stars/ahmedbesbes/character-based-cnn.svg?style=social)](https://github.com/ahmedbesbes/mrnet/stargazers)
-
-
 This repository contains an implementation of a convolutional neural network that classifies specific knee injuries from MRI exams.
 
 It also contains the matieral of a series of posts I wrote on <a href="http://ahmedbesbes.com"> my blog</a>.
