@@ -1,7 +1,7 @@
 ---
 title: "Automate the diagnosis of Knee Injuries 🏥 with Deep Learning part 3: Interpret models' predictions"
 date: 2019-08-21 12:00:00 # YYYY-MM-DD - H:M:S
-author: Ahmed BESBES
+author: Zuhair Abbas
 tags: ['mri', 'medical imaging', 'mrnet', 'convolutional neural networks', 'pytorch', 'interpretability', 'class activation map', 'cam']
 excerpt:  In this last post, we will focus on interpretability to assess what the ACL tear detector we trained in the previous article actually learnt. To do this, we'll explore a popular interpretability technique called Class Activation Map (CAM), applied when using convolutional neural networks that have a special architecture
 slug: acl-tear-detection-part-3
