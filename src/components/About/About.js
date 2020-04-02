@@ -17,7 +17,7 @@ const About = () => {
       <SkewBg />
       <AboutInfo>
         <div>
-          <Avatar src="me.png" />
+          <Avatar src="src/static/images/me.png" />
         </div>
         <p>
           Hello there 👋 I'm Zuhair. 
