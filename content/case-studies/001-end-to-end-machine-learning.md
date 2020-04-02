@@ -13,13 +13,13 @@ info:
   idea: Learn how to implement a convolutional neural network that classifies knee injuries from MRI exams
   tech: [Scrapy, Selenium, PyTorch, Dash, Docker, aws]
   links: 
-    - [Blog Post, https://ahmedbesbes.com/blog/end-to-end-machine-learning]
+    - [Blog Post, https://zuhair.netlify.com/blog/end-to-end-machine-learning]
 ---
 
 
 In this job, I collaborated with <a href="https://github.com/MarwanDebbiche">Marwan Debbiche</a>
 
-You may read about it <a href="https://ahmedbesbes.com/blog/end-to-end-machine-learning">here</a> and <a href="https://marwandebbiche.com/posts/e2e-ml/">here</a>.
+You may read about it <a href="https://zuhairabs.netlify.com/blog/end-to-end-machine-learning">here</a> and <a href="https://marwandebbiche.com/posts/e2e-ml/">here</a>.
 
 In this post, we'll go through the necessary steps to build and deploy a machine learning application. This starts from data collection to deployment; and the journey, you'll see, is exciting and fun. 😀
 
