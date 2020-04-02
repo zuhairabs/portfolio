@@ -11,7 +11,7 @@ import Contact from "src/components/Contact/Contact";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Ahmed BESBES - Data Science Portfolio" />
+    <SEO title="Zuhair Abbas - Data Science Portfolio" />
    
     <Home />
     <About />
