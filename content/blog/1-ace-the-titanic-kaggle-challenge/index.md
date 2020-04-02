@@ -1,7 +1,7 @@
 ---
 title: How to score 0.8134 🏅 in Titanic Kaggle Challenge
 date: 2016-09-10 10:10:00 # YYYY-MM-DD - H:M:S
-author: Ahmed BESBES
+author: Zuhair Abbas
 excerpt: Learn how to tackle a kaggle competition from the beginning till the end through data exploration, feature engineering, model building and fine-tuning
 tags: ['kaggle', 'classification', 'data science', 'titanic challenge', 'tutorial']
 slug: kaggle-titanic-competition
@@ -38,7 +38,6 @@ This is my first attempt as a blogger and as a machine learning practitioner.
 
 If you have a question about the code or the hypotheses I made, do not hesitate to post a comment in the comment section below.
 If you also have a suggestion on how this notebook could be improved, please reach out to me.
-This tutorial is available on my <a href="https://github.com/ahmedbesbes/How-to-score-0.8134-in-Titanic-Kaggle-Challenge"> github </a> account.
 
 Hope you've got everything set on your computer. Let's get started.
 
@@ -2201,7 +2200,7 @@ We went through the basic bricks of a data science pipeline:
 - Submission
 - Blending
 
-This post can be downloaded as a notebook if you ever want to test and play with it : <a href="https://github.com/ahmedbesbes/post1/blob/master/titanic-article.ipynb"> my github repo </a>
+This post can be downloaded as a notebook if you ever want to test and play with it.
 
 Lots of articles have been written about this challenge, so obviously there is a room for improvement.
 
