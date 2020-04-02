@@ -2,7 +2,7 @@
 title: Neural Networks from Scratch
 excerpt: Learn how to build and train a neural network from scratch. In pure Python only with no frameworks involved. This script helps you start this project.
 
-iframe: //github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/neural-networks-from-scratch/backprop.gif
+iframe: //http://github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/neural-networks-from-scratch/backprop.gif
 demo: //
 src: //github.com/zuhairabs/
 badgeUrl: "https://ghbtns.com/github-btn.html?user=zuhairabs&repo=&type=star&count=true" 
