@@ -1,7 +1,7 @@
 ---
 title: Introduction to AutoML with MLBox 🤖
 date: 2019-10-08 12:00:00 # YYYY-MM-DD - H:M:S
-author: Ahmed BESBES, Axel de ROMBLAY 
+author: Zuhair Abbas, 
 tags: ['mlbox', 'automl']
 excerpt: Learn about automated machine learning by using the MLBox package. This library will help you train a pipeline for a classification problem. It'll start off by loading and cleaning the data, removing drift, launching a robust pipeline of accelerated optimization, generating predictions and much more...
 slug: introduction-to-mlbox
@@ -27,7 +27,7 @@ MLBox has been presented to many machine learning Meetups. You can check one of 
 
 For the purpose of this notebook, we'll be solving the famous Titanic Kaggle <a href="https://www.kaggle.com/c/titanic/">challenge</a> which consists in predicting the survival of passengers based on their attributes (Sex, Age, Name, etc). 
 
-If you're not familiar with this competition you can check this <a href="https://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html">article</a>.
+If you're not familiar with this competition you can check this
 
 Let's now download the data:
 
