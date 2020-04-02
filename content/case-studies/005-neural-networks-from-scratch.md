@@ -2,10 +2,10 @@
 title: Neural Networks from Scratch
 excerpt: Learn how to build and train a neural network from scratch. In pure Python only with no frameworks involved. This script helps you start this project.
 
-iframe: //www.youtube.com/embed/lsiAMB2DWP0/?modestbranding=1&showinfo=0&autohide=1&rel=0
-demo: //www.youtube.com/watch?v=lsiAMB2DWP0
-src: //github.com/ahmedbesbes/Neural-Network-from-scratch
-badgeUrl: "https://ghbtns.com/github-btn.html?user=ahmedbesbes&repo=Neural-Network-from-scratch&type=star&count=true" 
+iframe: //github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/neural-networks-from-scratch/backprop.gif
+demo: //
+src: //github.com/zuhairabs/
+badgeUrl: "https://ghbtns.com/github-btn.html?user=zuhairabs&repo=&type=star&count=true" 
 info:
   idea: The main idea is to understand how back-propagation works and how to implement it, for scratch, to train neural networks. This script is here to help you.
   tech: [Pyton, Numpy]
