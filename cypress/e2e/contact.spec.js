@@ -28,7 +28,7 @@ describe("Contact Section", () => {
 
     cy.get('[name="_replyto"]')
       .focus()
-      .type('myemail@gmail.com')
+      .type('zuhairabs@gmail.com')
       .should('not.have.class', 'invalid')
     cy.get('[name="name"]')
       .focus()
