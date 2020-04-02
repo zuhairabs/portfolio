@@ -15,7 +15,7 @@ import SocialShareSection from 'src/components/Blog/SocialShareSection';
 import SplitLayout from "src/components/common/SplitLayout";
 
 const CaseStudy = ({ data }) => {
-  const baseSlugUrl = "https://ahmedbesbes.com" + data.markdownRemark.fields.slug;
+  const baseSlugUrl = "https://zuhairabs.netlify.com" + data.markdownRemark.fields.slug;
   const study = data.markdownRemark.frontmatter;
 
   const infoLinks = (
