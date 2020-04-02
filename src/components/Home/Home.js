@@ -54,18 +54,18 @@ const Home = () => {
         {/* <Parallax y={[50, -50]} className="home__text"> */}
         <div className="home__text">
           <p>Hello, i’m</p>
-          <h1>Ahmed BESBES</h1>
-          <p className="adjust">AI Engineer // Blogger // Runner</p>
+          <h1>Zuhair Abbas</h1>
+          <p className="adjust">AI Engineer // Data Scientist // Reader</p>
 
           <div className="home__CTA">
             <Button className="cta" as="a" href={cv}>Download Resume</Button>
 
             <div className="home__social">
-              <IconLink label="github" icon={["fab", "github"]} href="//github.com/ahmedbesbes" />
-              <IconLink label="linkedin" icon={faLinkedinIn} href="//linkedin.com/in/ahmed-besbes-99a91661/" />
-              <IconLink label="twitter" icon={["fab", "twitter"]} href="//twitter.com/ahmed_besbes_" />
-              <IconLink label="medium" icon={faMedium} href="//medium.com/@ahmedbesbes" />
-              <IconLink label="youtube" icon={faYoutube} href="//youtube.com/channel/UCP1M7FpkpNljH4r6ORiRg6g?view_as=subscriber" />
+              <IconLink label="github" icon={["fab", "github"]} href="//github.com/zuhairabs" />
+              <IconLink label="linkedin" icon={faLinkedinIn} href="//linkedin.com/in/zuhairabs/" />
+              <IconLink label="twitter" icon={["fab", "twitter"]} href="//twitter.com/zuhairabs" />
+              <IconLink label="medium" icon={faMedium} href="//medium.com/@zuhairabs" />
+              <IconLink label="youtube" icon={faYoutube} href="//youtube.com/channel/UCE2zC9B8zJZCywWfxcxrvrw?view_as=subscriber" />
             </div>
           </div>
         </div>
