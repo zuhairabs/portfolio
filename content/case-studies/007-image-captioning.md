@@ -2,8 +2,8 @@
 title: Image Captioning
 excerpt: How to translate an image to text with the ability to interpret what the machine learning algorithm sees? This is possible using neural networks and specifically encoder-decoders with attention mechanisms.
 
-iframe: //www.youtube.com/embed/RlNjzz358Jc/?modestbranding=1&showinfo=0&autohide=1&rel=0
-demo: //www.youtube.com/watch?v=RlNjzz358Jc
+iframe: //miro.medium.com/max/1024/1*vzFwXFJOrg6WRGNsYYT6qg.png
+demo: //
 
 info:
   idea: The idea of this project is to show how neural networks generate text from images and understand the generation process
