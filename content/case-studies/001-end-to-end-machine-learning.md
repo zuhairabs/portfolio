@@ -3,8 +3,8 @@ title: "End to end machine learning: from data collection to deployment 🚀"
 excerpt: "Learn how to build and deploy a machine learning application from scratch: an end-to-end tutorial to learn scraping, training a character level CNN for text classification, buidling an interactive responsive web app with Dash and Docker and deploying to AWS. You're in for a treat !"
 slug: end-to-end-ml-app
 
-iframe: //www.youtube.com/embed/7PRXAWtc52c/?modestbranding=1&showinfo=0&autohide=1&rel=0
-demo: //www.reviews.ai2prod.com/
+iframe: //https://miro.medium.com/max/1400/1*lY9P1H0d5vUKmdjriE05Ng.png/
+demo: //
 src: //github.com/MarwanDebbiche/post-tuto-deployment
 badgeUrl: "https://ghbtns.com/github-btn.html?user=MarwanDebbiche&repo=post-tuto-deployment&type=star&count=true" 
 
