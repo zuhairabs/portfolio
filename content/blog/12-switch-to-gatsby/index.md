@@ -1,7 +1,7 @@
 ---
 title: "A new portfolio for a New Year 🎉 when Gatsby meets Netlify"
 date: 2020-01-01 12:00 # YYYY-MM-DD - H:M:S
-author: Ahmed BESBES
+author: Zuhair Abbas
 tags: ["gatsby", "react", "netlify", "graphql"]
 excerpt: This is my brand new portfolio built using modern web technologies such as Gatsby, React and GraphQL and continuous deployment on Netlify.  Don't worry, the old articles have been migrated and new exciting things are coming up soon!
 slug: from-pelican-to-gatsby
