@@ -4,7 +4,7 @@ excerpt: You'll find here a PyTorch implementation of a character level CNN for 
 iframe: //github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/character-level-cnn/character_cnn.png
 demo: //
 src: //github.com/zuhairabs/
-badgeUrl: "https://ghbtns.com/github-btn.html?user=ahmedbesbes&repo=character-based-cnn&type=star&count=true" 
+badgeUrl: "https://ghbtns.com/github-btn.html?user=zuhairabs&repo=&type=star&count=true" 
 
 info:
   idea: This is a PyTorch implementation of a character-level convolutional neural network for text classification.
