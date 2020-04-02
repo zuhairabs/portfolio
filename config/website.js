@@ -1,22 +1,22 @@
 const meta = {
   // Metadata
-  siteTitle: 'Ahmed BESBES - Data Science Portfolio',
-  siteDescription: 'Ahmed BESBES - Data Scientist in the making.',
-  siteTitleAlt: 'Ahmed BESBES',
-  siteShortName: 'Ahmed BESBES',
-  siteUrl: 'https://www.ahmedbesbes.com', // No trailing slash!
+  siteTitle: 'Zuhair Abbas - Data Science Portfolio',
+  siteDescription: 'Zuhair Abbas - Data Scientist in the making.',
+  siteTitleAlt: 'Zuhair Abbas',
+  siteShortName: 'Zuhair Abbas',
+  siteUrl: 'https://zuhairabs.netlify.com', // No trailing slash!
 }
 
 const social = {
   siteLogo: `src/static/logo.svg`,
   siteBanner: `${meta.siteUrl}/images/social-banner.png`,
-  twitter: '@ahmed_besbes_',
+  twitter: '@zuhairabs',
 }
 
 const website = {
   ...meta,
   ...social,
-  disqusShortName: 'ahmedbesbes',
+  disqusShortName: 'zuhairabs',
   googleAnalyticsID: "UA-79148290-1",
   
   // Manifest
