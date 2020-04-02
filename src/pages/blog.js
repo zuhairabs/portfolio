@@ -36,7 +36,7 @@ const BlogPage = () => {
   )
   return (
     <Layout>
-      <SEO title="Ahmed BESBES - Data Science Portfolio" />
+      <SEO title="Zuhair Abbas - Data Science Portfolio" />
 
       <BlogLayout>
         {
