@@ -13,6 +13,5 @@ info:
   idea: This app is a Demo app for using DatoCMS contents via GraphQl api on a React Native app.
   tech: [React Native, Android]
   links: 
-    - [Stanford ML Group, https://stanfordmlgroup.github.io/competitions/mrnet/]
-    - ["Deep-learning-assisted diagnosis for knee magnetic resonance imaging: Development and retrospective validation of MRNet", https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.1002699&type=printable]
+    - [React Native Demo App, https://github.com/zuhairabs/react-native-demo]
 ---
