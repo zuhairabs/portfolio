@@ -1,7 +1,7 @@
 ---
 title: How to mine newsfeed data 📰 and extract interactive insights in Python
 date: 2017-03-15 10:10:00 # YYYY-MM-DD - H:M:S
-author: Ahmed BESBES
+author: Zuhair Abbas
 tags: ['nlp', 'topic mining', 'tf-idf', 'lda', 'newsapi.org', 'text clustering', 'bokeh', 'kmeans']
 excerpt: Learn how to cluster and visualize news data using KMeans, LDA and interactive plotting with Bokeh
 slug: interactive-topic-mining
@@ -70,7 +70,7 @@ pip install pyldavis
 
 To connect to the Newsapi service you'll have to create an account at https://newsapi.org/register to get a key. It's totally free. Then you'll have to put your key in the code and run the script on your own if you want to. 
 
-All the data and scripts to run this tutorial can be found on my <a href="https://github.com/ahmedbesbes/How-to-mine-newsfeed-data-and-extract-interactive-insights-in-Python"> github</a>. Don't hesitate to fork the project and bring your modifications to it.
+All the data and scripts to run this tutorial can be found on my. Don't hesitate to fork the project and bring your modifications to it.
 
 ## 2 - Data acquisition from Newsapi.org
 
