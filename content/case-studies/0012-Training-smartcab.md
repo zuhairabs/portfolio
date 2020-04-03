@@ -1,7 +1,7 @@
 ---
 title: "Training Smartcab"
 excerpt: "In this project, we work towards constructing an optimized Q-Learning driving agent that will navigate a Smartcab through its environment towards a goal."
-slug: python Machine learning data science
+slug: smartcab
 
 iframe: //jwdinius.github.io/assets/img/smartcab_files/smartcab_11_0.png
 demo: //
