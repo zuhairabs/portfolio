@@ -1,7 +1,7 @@
 ---
 title: "Scalable Walkability Analysis.."
 excerpt: "Walkability Index' of a suburb measures how 'walkable' a given neighborhood is, in terms of road connectivity, population density, and land use mix."
-slug: python Machine learning
+slug: Machine learning
 
 iframe: //github.com/zuhairabs/Scalable-Walkability-Analysis-of-Melbourne/blob/master/figures/Bus%20Stop%20Count_walk_corr.png
 demo: //
