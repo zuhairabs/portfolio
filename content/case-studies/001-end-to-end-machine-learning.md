@@ -17,7 +17,7 @@ info:
 ---
 
 <p align="center">
-    <img src="miro.medium.com/max/1400/1*lY9P1H0d5vUKmdjriE05Ng.png"  width="100%">
+    <img src="https://miro.medium.com/max/1400/1*lY9P1H0d5vUKmdjriE05Ng.png"  width="100%">
 </p>
 
 In this job, I collaborated with <a href="https://github.com/MarwanDebbiche">Marwan Debbiche</a>
