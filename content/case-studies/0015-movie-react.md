@@ -15,3 +15,7 @@ info:
   links: 
     - [Movie React, https://github.com/zuhairabs/movie-react]
 ---
+
+<p align="center">
+    <img src="https://github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/projects/movies.png"  width="100%">
+</p>
