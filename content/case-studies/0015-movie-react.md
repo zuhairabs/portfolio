@@ -1,7 +1,7 @@
 ---
 title: "Movie React"
 excerpt: "A Movie Library made with ReactJS using The Movie Database API"
-slug: react
+slug: movie-react
 
 iframe: //github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/projects/movies.png
 demo: //
