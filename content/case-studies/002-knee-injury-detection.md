@@ -3,7 +3,7 @@ title: "Deep learning for knee injury diagnosis"
 excerpt: "This repository contains an implementation of a convolutional neural network that classifies specific knee injuries from MRI exams. Check it if you want to learn more or to adapt the code to another medical imaging problem."
 slug: mrnet network
 
-iframe: //https://stanfordmlgroup.github.io/projects/mrnet/img/fig3.png
+iframe: //stanfordmlgroup.github.io/projects/mrnet/img/fig3.png
 demo: //
 src: //github.com/zuhairabs/
 badgeUrl: "https://ghbtns.com/github-btn.html?user=zuhairabs&repo=&type=star&count=true" 
