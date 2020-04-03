@@ -1,7 +1,7 @@
 ---
 title: "Covid-19 Tracker"
 excerpt: "App that takes data from an API to display this information in real time by sockets."
-slug: react native
+slug: covid-19
 
 iframe: //github.com/zuhairabs/covid-19-tracker/blob/master/IMG-20200327-WA0005.jpg
 demo: //zuhairabs.pythonanywhere.com/
@@ -15,3 +15,7 @@ info:
   links: 
     - [Covid-19 Tracker, https://github.com/zuhairabs/covid-19-tracker]
 ---
+
+<p align="center">
+    <img src="https://github.com/zuhairabs/covid-19-tracker/blob/master/IMG-20200327-WA0005.jpg"  width="100%">
+</p>
