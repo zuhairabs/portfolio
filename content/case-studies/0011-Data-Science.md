@@ -1,7 +1,7 @@
 ---
 title: "Data Science Portfolio"
 excerpt: "Repository containing portfolio of data science projects completed by me for academic, self learning, and hobby purposes. Presented in the form of iPython Notebooks, and R markdown files."
-slug: python Machine learning data science
+slug: data science
 
 iframe: //www.dataquest.io/wp-content/uploads/2019/05/what-is-data-science-1040x520.jpg
 demo: //
