@@ -1,7 +1,7 @@
 ---
 title: "Todos App React"
 excerpt: "A todo App with Authentication using Firebase. Todos are saved using Firestore."
-slug: react
+slug: todos
 
 iframe: //github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/projects/react_todos.png
 demo: //
