@@ -15,3 +15,7 @@ info:
   links: 
     - [Scalable Walkability Analysis.., https://github.com/zuhairabs/Scalable-Walkability-Analysis-of-Melbourne]
 ---
+
+<p align="center">
+    <img src="https://github.com/zuhairabs/Scalable-Walkability-Analysis-of-Melbourne/blob/master/figures/Bus%20Stop%20Count_walk_corr.png"  width="100%">
+</p>
