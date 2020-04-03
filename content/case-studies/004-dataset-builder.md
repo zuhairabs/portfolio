@@ -14,6 +14,11 @@ info:
   links:
 ---
 
+<p align="center">
+    <img src="https://github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/dataset-builder/class_names.png"  width="100%">
+</p>
+
+
 This script is meant to help you quickly build custom computer vision datasets for classification, detection or segmentation: it doesn't do the labeling for you. But it takes care of the steps beforehand:
 
 - Define your set of classes
