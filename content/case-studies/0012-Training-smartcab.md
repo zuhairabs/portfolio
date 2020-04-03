@@ -15,3 +15,7 @@ info:
   links: 
     - [Training Smartcab, https://github.com/zuhairabs/Training-smartcab]
 ---
+
+<p align="center">
+    <img src="https://jwdinius.github.io/assets/img/smartcab_files/smartcab_11_0.png"  width="100%">
+</p>
