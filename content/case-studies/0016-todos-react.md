@@ -17,5 +17,5 @@ info:
 ---
 
 <p align="center">
-    <img src="https://github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/projects/react_todos.png"  width="100%">
+    <img src="./images/projects/react_todos.png"  width="100%">
 </p>
