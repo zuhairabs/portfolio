@@ -11,7 +11,7 @@
 ![Website](https://img.shields.io/website?down_message=offline&label=site&up_message=online&url=http%3A%2F%2Fanuraghazra.github.io)
 
 
-![Zuhair Abbas Site Preview](./src/static/screenshot.png)
+![Zuhair Abbas Site Preview](./src/static/screenshot1.png)
 
 Strained eyes? There's DarkMode too :p
 
