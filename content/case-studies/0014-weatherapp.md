@@ -15,3 +15,7 @@ info:
   links: 
     - [Weather App, https://github.com/zuhairabs/weatherapp]
 ---
+
+<p align="center">
+    <img src="https://github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/projects/weatherapp.png"  width="100%">
+</p>
