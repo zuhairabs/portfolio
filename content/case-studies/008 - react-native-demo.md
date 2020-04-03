@@ -1,7 +1,7 @@
 ---
 title: "React Native Demo App"
 excerpt: "This app is a Demo app for using DatoCMS contents via GraphQl api on a React Native app."
-slug: react native
+slug: react-native
 
 iframe: //www.datocms-assets.com/205/1553596761-work-sweetgreen-android.png
 demo: //expo.io/@zzlorezz/datocms-wmf
@@ -15,3 +15,7 @@ info:
   links: 
     - [React Native Demo App, https://github.com/zuhairabs/react-native-demo]
 ---
+
+<p align="center">
+    <img src="https://www.datocms-assets.com/205/1553596761-work-sweetgreen-android.png"  width="100%">
+</p>
