@@ -17,5 +17,5 @@ info:
 ---
 
 <p align="center">
-    <img src="https://github.com/zuhairabs/BookReads/blob/master/screenshots/search_page.png"  width="100%">
+    <img src="./images/projects/search_page.png"  width="100%">
 </p>
