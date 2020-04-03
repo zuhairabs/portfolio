@@ -15,3 +15,7 @@ info:
   links: 
     - [Data Science Portfolio, https://github.com/zuhairabs/Data-Science]
 ---
+
+<p align="center">
+    <img src="www.dataquest.io/wp-content/uploads/2019/05/what-is-data-science-1040x520.jpg"  width="100%">
+</p>
