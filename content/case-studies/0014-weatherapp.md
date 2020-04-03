@@ -1,7 +1,7 @@
 ---
 title: "Weather App"
 excerpt: "Project made from scratch using Vanilla JS. This project uses the Open Weather Map API"
-slug: react
+slug: weather-react
 
 iframe: //github.com/zuhairabs/portfolio/blob/master/content/case-studies/images/projects/weatherapp.png
 demo: //
