@@ -12,6 +12,11 @@ info:
     - [ Paper, https://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf ]
 ---
 
+<p align="center">
+    <img src="https://miro.medium.com/max/1400/1*1A15ZgDnOn_64myq4rxxkg.png"  width="100%">
+</p>
+
+
 ## How it works
 
 In this app I'm implementing this [paper](https://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf) "Perceptual Losses for Real time style tranfer and super resolution" in **PyTorch**.
