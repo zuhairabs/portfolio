@@ -8,9 +8,10 @@ demo: //
 src: //github.com/zuhairabs/BookReads
 badgeUrl: "https://ghbtns.com/github-btn.html?user=zuhairabs&repo=BookReads&type=star&count=true" 
 
+
 info:
-  idea: BookReads is a web app allows its users to organise their collection of books into three shelves: Currently Reading, Read, and Want To Read.
-  tech: [React]
+  idea: BookReads is a web app allows its users to organise their collection of books into three shelves currently Reading, Read, and Want To Read.
+  tech: [Python, Data Science, Machine Learning]
   links: 
     - [BookReads, https://github.com/zuhairabs/BookReads]
 ---
