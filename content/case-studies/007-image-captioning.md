@@ -15,6 +15,11 @@ info:
       ]
 ---
 
+<p align="center">
+    <img src="https://miro.medium.com/max/1024/1*vzFwXFJOrg6WRGNsYYT6qg.png"  width="100%">
+</p>
+
+
 ## How it works
 
 This is a web demo that allows to perform image captioning with visual attention mechanism to highlight the areas of the image where the model look when generating a token.
